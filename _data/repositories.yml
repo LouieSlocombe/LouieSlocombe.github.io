@@ -6,8 +6,3 @@ repo_description_lines_max: 2
 github_repos:
   - ELIFE-ASU/CBRdb
   - LouieSlocombe/HEOM.jl
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
