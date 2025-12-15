@@ -7,7 +7,7 @@ subtitle: Nuclear Quantum Effects · Molecular Simulations · Machine Learning �
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>BEYOND Center for Fundamental Concepts in Science</p>
     <p>Arizona State University</p>
@@ -26,10 +26,6 @@ talks:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_talks` folder
 
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 I'm a postdoctoral researcher and lab manager at Arizona State University. I am interested in understanding how life
