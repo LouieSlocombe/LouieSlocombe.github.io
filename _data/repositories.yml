@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - LouieSlocombe
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
+  - ELIFE-ASU/CBRdb
+  - LouieSlocombe/HEOM.jl
   - twbs/bootstrap
   - jquery/jquery
   - FortAwesome/Font-Awesome
