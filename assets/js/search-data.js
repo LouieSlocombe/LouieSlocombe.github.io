@@ -63,16 +63,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-we-released-a-new-version-of-cbr-db-a-curated-biochemical-database-for-studies-on-origins-of-biochemistry-the-reproducible-code-and-database-can-be-found-here",
+          title: 'We released a new version of CBR-db a curated biochemical database for studies...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-a-new-publication-understanding-water-behaviour-on-2d-material-interfaces-published-at-nature-communications-here-is-the-paper",
+          title: 'A new publication understanding water behaviour on 2D material interfaces published at Nature...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
