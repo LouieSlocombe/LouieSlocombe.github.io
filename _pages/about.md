@@ -7,7 +7,7 @@ subtitle: Nuclear Quantum Effects · Molecular Simulations · Machine Learning �
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>BEYOND Center for Fundamental Concepts in Science</p>
     <p>Arizona State University</p>
