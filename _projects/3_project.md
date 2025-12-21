@@ -4,7 +4,7 @@ title: 2d materials and interfaces
 description: 
 img: assets/img/7.jpg
 importance: 3
-category: work
+category: projects
 ---
 
 Every project has a beautiful feature showcase page.

@@ -4,7 +4,7 @@ title: assembly theory
 description: 
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: projects
 giscus_comments: true
 ---
 

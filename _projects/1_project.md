@@ -4,7 +4,7 @@ title: proton transfer DNA
 description: 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: projects
 related_publications: true
 ---
 
