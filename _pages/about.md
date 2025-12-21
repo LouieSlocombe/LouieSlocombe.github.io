@@ -31,3 +31,15 @@ talks:
 I'm a postdoctoral researcher and lab manager at Arizona State University. I am interested in understanding how life
 utilises chemistry, by any means necessary, to function. I have a background in theoretical physics and chemistry, and I
 apply it to biological systems.
+
+**Sort bio**
+
+I got my PhD in Quantum Biology from the University of Surrey in 2022, where I worked with Prof. Marco Sacchi and Prof.
+Jim Al-Khalili. My thesis focused on the role of nuclear quantum effects in biological systems, particularly proton
+transfer in DNA. After my PhD, I became a Research Fellow in Theoretical Quantum Biology at the University of Surrey,
+where I worked on open-quantum-systems models of proton transfer in DNA with explicit interactions of the replisome and
+quantum/classical contributions to ion selectivity in ion channels.
+
+Currently, I am Research Laboratory Manager at Arizona State University’s Beyond Center for Fundamental Concepts in
+Science, where I work with Prof. Sara Walker. Specific interest in applying complexity and graph theory to the 
+origins of life. Using assembly theory to measure selection in molecules, patents, atmospheres, and proteins.
