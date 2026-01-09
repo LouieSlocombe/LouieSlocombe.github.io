@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2025-12-22'
+  last_updated: '2026-01-09'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 128
+    citations: 131
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -14,7 +14,7 @@ papers:
     title: 'Single-Molecule Water Motion on h-BN and Graphene: Understanding the Behaviour of Water on 2D Material Interfaces'
     year: Unknown Year
   JISRQewAAAAJ:5nxA0vEk-isC:
-    citations: 0
+    citations: 1
     title: 'Searching for Life as We Don''t Know It: Detecting Signatures of Chemical Selection in Exoplanet Atmospheres'
     year: '2025'
   JISRQewAAAAJ:8k81kl-MbHgC:
@@ -70,7 +70,7 @@ papers:
     title: Guanine-Cytosine Dynamics During DNA Strand Separation
     year: '2022'
   JISRQewAAAAJ:d1gkVwhDpl0C:
-    citations: 209
+    citations: 211
     title: 'Quantum biology: An update and perspective'
     year: '2021'
   JISRQewAAAAJ:eQOLeE2rZwMC:
