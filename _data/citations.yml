@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-28'
+  last_updated: '2026-02-02'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 134
+    citations: 133
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -78,7 +78,7 @@ papers:
     title: Multiscale simulations reveal the role of PcrA helicase in protecting against proton transfer in DNA
     year: '2023'
   JISRQewAAAAJ:hqOjcs7Dif8C:
-    citations: 1
+    citations: 2
     title: The Emergence of Chirality from Metabolism
     year: '2025'
   JISRQewAAAAJ:kNdYIx-mwKoC:
