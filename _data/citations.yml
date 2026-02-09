@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-09'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 133
+    citations: 134
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -91,7 +91,7 @@ papers:
     year: Unknown Year
   JISRQewAAAAJ:roLk4NBRz8UC:
     citations: 2
-    title: 'CBRdb: a curated biochemical reaction database for precise biochemical reaction analysis'
+    title: 'CBRdb: A Curated Biochemical Reaction Database for Precise Biochemical Reaction Analysis'
     year: '2025'
   JISRQewAAAAJ:u-x6o8ySG0sC:
     citations: 7
