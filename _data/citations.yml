@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-23'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 134
+    citations: 137
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -22,7 +22,7 @@ papers:
     title: Conformational Dynamics of 8-Oxoguanine Mispairing Reveal a Mechanism of Polymerase {\lambda} Misincorporation
     year: '2025'
   JISRQewAAAAJ:9yKSN-GCB0IC:
-    citations: 86
+    citations: 84
     title: "Quantum and classical effects in DNA point mutations: Watson\u2013Crick tautomerism in AT and GC base pairs"
     year: '2021'
   JISRQewAAAAJ:IjCSPb-OGe4C:
@@ -37,20 +37,16 @@ papers:
     citations: 0
     title: 'Beyond Quantum Coherence: Sub-Femtosecond Lifetimes Underscore Classical Origins of Selectivity in Acid-Sensing Ion Channel 1'
     year: '2025'
-  JISRQewAAAAJ:Se3iqnhoufwC:
-    citations: 7
-    title: "Quantum biology: an update and perspective. Quantum Rep 3: 1\u201348"
-    year: '2021'
   JISRQewAAAAJ:Tyk-4Ss8FVUC:
     citations: 10
     title: Tautomerisation mechanisms in the Adenine-Thymine Nucleobase pair during DNA strand separation
     year: '2023'
   JISRQewAAAAJ:UeHWp8X0CEIC:
     citations: 4
-    title: Quantum effects in dna replication fidelity
+    title: Quantum effects in DNA replication fidelity
     year: '2022'
   JISRQewAAAAJ:UebtZRa9Y70C:
-    citations: 0
+    citations: 1
     title: Computational Insight into the Intercalating Properties of Cryptolepine
     year: '2025'
   JISRQewAAAAJ:W7OEmFMy1HYC:
@@ -63,14 +59,14 @@ papers:
     year: '2023'
   JISRQewAAAAJ:Y0pCki6q_DkC:
     citations: 25
-    title: Quantum tunnelling effects in the Guanine-Thymine Wobble misincorporation via tautomerism
+    title: Quantum tunnelling effects in the guanine-thymine wobble misincorporation via tautomerism
     year: '2022'
   JISRQewAAAAJ:_FxGoFyzp5QC:
     citations: 0
     title: Guanine-Cytosine Dynamics During DNA Strand Separation
     year: '2022'
   JISRQewAAAAJ:d1gkVwhDpl0C:
-    citations: 217
+    citations: 221
     title: 'Quantum biology: An update and perspective'
     year: '2021'
   JISRQewAAAAJ:eQOLeE2rZwMC:
@@ -85,16 +81,12 @@ papers:
     citations: 1
     title: Understanding water behaviour on 2D material interfaces through single-molecule motion on h-BN and graphene
     year: '2025'
-  JISRQewAAAAJ:qjMakFHDy7sC:
-    citations: 0
-    title: Open quantum systems in quantum biology
-    year: Unknown Year
   JISRQewAAAAJ:roLk4NBRz8UC:
     citations: 2
-    title: 'CBRdb: A Curated Biochemical Reaction Database for Precise Biochemical Reaction Analysis'
+    title: 'CBRdb: a curated biochemical reaction database for precise biochemical reaction analysis'
     year: '2025'
   JISRQewAAAAJ:u-x6o8ySG0sC:
-    citations: 7
+    citations: 8
     title: 'Alkali metal adsorption on metal surfaces: new insights from new tools'
     year: '2021'
   JISRQewAAAAJ:u5HHmVD_uO8C:
@@ -102,7 +94,7 @@ papers:
     title: 'Electrical versus optical: Comparing methods for detecting terahertz radiation using neon lamps'
     year: '2018'
   JISRQewAAAAJ:ufrVoPGSRksC:
-    citations: 7
+    citations: 6
     title: Measuring molecular complexity
     year: '2024'
   JISRQewAAAAJ:zYLM7Y9cAGgC:
