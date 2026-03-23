@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-03-23'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -61,6 +61,10 @@ papers:
     citations: 26
     title: Quantum tunnelling effects in the guanine-thymine wobble misincorporation via tautomerism
     year: '2022'
+  JISRQewAAAAJ:Zph67rFs4hoC:
+    citations: 0
+    title: 'Searching for Life-As-We-Don''t-Know-It: Mission-relevant Application of Assembly Theory for Exoplanet Life Detection'
+    year: Unknown Year
   JISRQewAAAAJ:_FxGoFyzp5QC:
     citations: 0
     title: Guanine-Cytosine Dynamics During DNA Strand Separation
