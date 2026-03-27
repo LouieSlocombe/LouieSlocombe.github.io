@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-23'
+  last_updated: '2026-03-27'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 143
+    citations: 145
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -22,7 +22,7 @@ papers:
     title: Conformational Dynamics of 8-Oxoguanine Mispairing Reveal a Mechanism of Polymerase {\lambda} Misincorporation
     year: '2025'
   JISRQewAAAAJ:9yKSN-GCB0IC:
-    citations: 88
+    citations: 89
     title: "Quantum and classical effects in DNA point mutations: Watson\u2013Crick tautomerism in AT and GC base pairs"
     year: '2021'
   JISRQewAAAAJ:IjCSPb-OGe4C:
