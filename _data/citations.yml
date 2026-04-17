@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-17'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 147
+    citations: 149
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -65,6 +65,10 @@ papers:
     citations: 28
     title: Quantum tunnelling effects in the guanine-thymine wobble misincorporation via tautomerism
     year: '2022'
+  JISRQewAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: 'Searching for Life as We Don''t Know It: Detecting Signatures of Planetary-scale Complexity in Exoplanet Atmospheric Spectra'
+    year: '2026'
   JISRQewAAAAJ:Zph67rFs4hoC:
     citations: 0
     title: 'Searching for Life-As-We-Don''t-Know-It: Mission-relevant Application of Assembly Theory for Exoplanet Life Detection'
@@ -74,7 +78,7 @@ papers:
     title: Guanine-Cytosine Dynamics During DNA Strand Separation
     year: '2022'
   JISRQewAAAAJ:d1gkVwhDpl0C:
-    citations: 233
+    citations: 234
     title: 'Quantum biology: An update and perspective'
     year: '2021'
   JISRQewAAAAJ:eQOLeE2rZwMC:
@@ -86,7 +90,7 @@ papers:
     title: The Emergence of Chirality from Metabolism
     year: '2025'
   JISRQewAAAAJ:kNdYIx-mwKoC:
-    citations: 1
+    citations: 2
     title: Understanding water behaviour on 2D material interfaces through single-molecule motion on h-BN and graphene
     year: '2025'
   JISRQewAAAAJ:roLk4NBRz8UC:
