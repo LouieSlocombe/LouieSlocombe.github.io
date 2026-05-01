@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-05-01'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 149
+    citations: 152
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -38,13 +38,9 @@ papers:
     title: 'Beyond Quantum Coherence: Sub-Femtosecond Lifetimes Underscore Classical Origins of Selectivity in Acid-Sensing Ion Channel 1'
     year: '2025'
   JISRQewAAAAJ:Tyk-4Ss8FVUC:
-    citations: 11
+    citations: 12
     title: Tautomerisation mechanisms in the Adenine-Thymine Nucleobase pair during DNA strand separation
     year: '2023'
-  JISRQewAAAAJ:ULOm3_A8WrAC:
-    citations: 0
-    title: 'CBRdb: A Cheminformatic Database for Biochemical Reaction Analysis'
-    year: '2026'
   JISRQewAAAAJ:UeHWp8X0CEIC:
     citations: 4
     title: Quantum effects in DNA replication fidelity
@@ -62,7 +58,7 @@ papers:
     title: Multiscale simulations reveal the role of PcrA helicase in protecting against spontaneous point mutations in DNA
     year: '2023'
   JISRQewAAAAJ:Y0pCki6q_DkC:
-    citations: 28
+    citations: 29
     title: Quantum tunnelling effects in the guanine-thymine wobble misincorporation via tautomerism
     year: '2022'
   JISRQewAAAAJ:YOwf2qJgpHMC:
@@ -78,7 +74,7 @@ papers:
     title: Guanine-Cytosine Dynamics During DNA Strand Separation
     year: '2022'
   JISRQewAAAAJ:d1gkVwhDpl0C:
-    citations: 234
+    citations: 238
     title: 'Quantum biology: An update and perspective'
     year: '2021'
   JISRQewAAAAJ:eQOLeE2rZwMC:
@@ -90,7 +86,7 @@ papers:
     title: The Emergence of Chirality from Metabolism
     year: '2025'
   JISRQewAAAAJ:kNdYIx-mwKoC:
-    citations: 2
+    citations: 3
     title: Understanding water behaviour on 2D material interfaces through single-molecule motion on h-BN and graphene
     year: '2025'
   JISRQewAAAAJ:roLk4NBRz8UC:
