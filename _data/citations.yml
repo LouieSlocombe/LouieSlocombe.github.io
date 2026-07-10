@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-10'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 160
+    citations: 163
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -26,7 +26,7 @@ papers:
     title: Conformational Dynamics of 8-Oxoguanine Mispairing Reveal a Mechanism of Polymerase {\lambda} Misincorporation
     year: '2025'
   JISRQewAAAAJ:9yKSN-GCB0IC:
-    citations: 92
+    citations: 91
     title: "Quantum and classical effects in DNA point mutations: Watson\u2013Crick tautomerism in AT and GC base pairs"
     year: '2021'
   JISRQewAAAAJ:IjCSPb-OGe4C:
@@ -66,7 +66,7 @@ papers:
     title: Multiscale simulations reveal the role of PcrA helicase in protecting against spontaneous point mutations in DNA
     year: '2023'
   JISRQewAAAAJ:Y0pCki6q_DkC:
-    citations: 29
+    citations: 30
     title: Quantum tunnelling effects in the guanine-thymine wobble misincorporation via tautomerism
     year: '2022'
   JISRQewAAAAJ:YOwf2qJgpHMC:
@@ -86,7 +86,7 @@ papers:
     title: Deep-time consistency in proteome elemental composition across cellular and viral life
     year: '2026'
   JISRQewAAAAJ:d1gkVwhDpl0C:
-    citations: 241
+    citations: 242
     title: 'Quantum biology: An update and perspective'
     year: '2021'
   JISRQewAAAAJ:eQOLeE2rZwMC:
@@ -98,7 +98,7 @@ papers:
     title: The Emergence of Chirality from Metabolism
     year: '2025'
   JISRQewAAAAJ:kNdYIx-mwKoC:
-    citations: 5
+    citations: 6
     title: Understanding water behaviour on 2D material interfaces through single-molecule motion on h-BN and graphene
     year: '2025'
   JISRQewAAAAJ:qxL8FJ1GzNcC:
