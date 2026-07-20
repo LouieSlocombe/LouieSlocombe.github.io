@@ -1,18 +1,22 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-20'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 163
+    citations: 165
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
     citations: 0
     title: 'Single-Molecule Water Motion on h-BN and Graphene: Understanding the Behaviour of Water on 2D Material Interfaces'
     year: Unknown Year
+  JISRQewAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: Analyzing astrobiology as a mosaic of publishing cultures through comparative bibliometrics
+    year: '2026'
   JISRQewAAAAJ:4TOpqqG69KYC:
     citations: 0
     title: 'Assembly of Planetary Atmospheres: An Earth-Agnostic Method for Life Detection on Exoplanets from Infrared Spectra'
@@ -30,7 +34,7 @@ papers:
     title: "Quantum and classical effects in DNA point mutations: Watson\u2013Crick tautomerism in AT and GC base pairs"
     year: '2021'
   JISRQewAAAAJ:IjCSPb-OGe4C:
-    citations: 30
+    citations: 32
     title: Proton transfer during DNA strand separation as a source of mutagenic guanine-cytosine tautomers
     year: '2022'
   JISRQewAAAAJ:LkGwnXOMwfcC:
@@ -66,7 +70,7 @@ papers:
     title: Multiscale simulations reveal the role of PcrA helicase in protecting against spontaneous point mutations in DNA
     year: '2023'
   JISRQewAAAAJ:Y0pCki6q_DkC:
-    citations: 30
+    citations: 31
     title: Quantum tunnelling effects in the guanine-thymine wobble misincorporation via tautomerism
     year: '2022'
   JISRQewAAAAJ:YOwf2qJgpHMC:
@@ -84,6 +88,10 @@ papers:
   JISRQewAAAAJ:_kc_bZDykSQC:
     citations: 0
     title: Deep-time consistency in proteome elemental composition across cellular and viral life
+    year: '2026'
+  JISRQewAAAAJ:aqlVkmm33-oC:
+    citations: 0
+    title: Quantifying Atmospheric Complexity for Life Detection on Exoplanets using Assembly Theory and Infrared Spectra
     year: '2026'
   JISRQewAAAAJ:d1gkVwhDpl0C:
     citations: 242
