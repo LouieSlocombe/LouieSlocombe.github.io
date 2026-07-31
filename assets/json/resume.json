@@ -1,17 +1,26 @@
 {
   "basics": {
     "name": "Louie Slocombe",
-    "email": "lslocomb@asu.edu",
-    "url": "https://search.asu.edu/profile/5089643",
+    "email": "l.slocombe@bham.ac.uk",
+    "url": "https://research.birmingham.ac.uk/en/persons/louie-slocombe/",
     "summary": "A UK-born computational physicist / theoretical chemist."
   },
   "work": [
+    {
+      "name": "Department of Chemistry, University of Birmingham, Birmingham, UK",
+      "position": "Group Leader Research Fellow in Computational Chemistry and AI/ML for Sustainable Polymers",
+      "url": "https://davidscanlon.com/",
+      "startDate": "Jun 2026",
+      "endDate": "Present",
+      "summary": "Supervisor: David Scanlon.",
+      "highlights": ["Specific interest in predicting biodegradability."]
+    },
     {
       "name": "Beyond Center for Fundamental Concepts in Science, Arizona State University, Tempe, AZ, USA",
       "position": "Research Lab Manager and Postdoctoral Researcher",
       "url": "https://emergence.asu.edu/",
       "startDate": "Apr 2024",
-      "endDate": "Present",
+      "endDate": "Apr 2026",
       "summary": "Specific interest in applying machine learning, chemical complexity, and graph theory to the origins of biochemistry, chemical space exploration, and protein folding. Supervisor: Sara Walker.",
       "highlights": ["Day-to-day management and training of a large interdisciplinary research lab."]
     },
@@ -53,6 +62,94 @@
       "summary": "Biomedical start-up focusing on innovative medical technology, developing atmospheric plasma for advanced wound care.",
       "highlights": ["Managed quality assurance testing and validation procedures to meet ISO 13485 medical device certification requirements.",
         "Developed and implemented microcontroller-based systems for automated experimental data acquisition and analysis."]
+    }
+  ],
+  "awards": [
+    {
+      "title": "HPC Resource Allocation",
+      "awarder": "NSF ACCESS",
+      "summary": "$12,000 total award."
+    },
+    {
+      "title": "ARCHER2 HPC Resource Allocations (six grants)",
+      "date": "2020-2025",
+      "awarder": "HecBioSim Consortium",
+      "summary": "$48,910 total award."
+    },
+    {
+      "title": "Quantum Biology Gordon Research Symposium and Conference Grant",
+      "date": "2025",
+      "awarder": "Alfred P. Sloan Foundation",
+      "summary": "$15,000 award."
+    },
+    {
+      "title": "Quantum Biology Gordon Research Symposium Grant",
+      "date": "2025",
+      "awarder": "National Science Foundation, Division of Molecular & Cellular Biosciences",
+      "summary": "$7,000 award."
+    },
+    {
+      "title": "Front Cover, Journal of Physical Chemistry B",
+      "date": "2023-05-18",
+      "awarder": "American Chemical Society",
+      "summary": "Volume 127, Issue 19, pp. 4165-4350."
+    },
+    {
+      "title": "Editors' Highlights",
+      "date": "2022",
+      "awarder": "Nature Communications Chemistry"
+    },
+    {
+      "title": "Five Years of Communications Physics Highlights",
+      "date": "2022",
+      "awarder": "Nature Communications Physics"
+    },
+    {
+      "title": "Winning Image and Overall Winner, Science Showcase Image and Video Competition",
+      "date": "2023",
+      "awarder": "ARCHER2 HPC",
+      "summary": "\"Modelling proton tunnelling in DNA replication\", with Winokan, M., Al-Khalili, J., & Sacchi, M."
+    },
+    {
+      "title": "Best Poster",
+      "date": "2026",
+      "awarder": "Frontiers and Challenges in Quantum Biology Workshop, Niels Bohr Institute",
+      "summary": "Nuclear Quantum Effects in the Guanine-Thymine Wobble Misincorporation in Polymerase-Lambda."
+    },
+    {
+      "title": "Best Poster",
+      "date": "2023",
+      "awarder": "EuChemS Conference, Greece",
+      "summary": "Guanine-Thymine Wobble Misincorporation via Proton Transfer."
+    },
+    {
+      "title": "Best Poster",
+      "date": "2023",
+      "awarder": "Multiscale Modelling Conference, Manchester, UK",
+      "summary": "PcrA Helicase Modifies G-C Tautomerism."
+    },
+    {
+      "title": "Media and Press Coverage",
+      "awarder": "BBC, Scientific American, and science YouTube communicators",
+      "summary": "Several publications rank in the top 5% of all research outputs tracked by Altmetric, reaching the top 4 of all time by shares and accesses in their respective journals."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Computational Chemistry & Physics",
+      "keywords": ["DFT (ORCA, NWChem, Q-Chem, CP2K)", "ab initio quantum chemistry", "molecular dynamics (GROMACS, OpenMM)", "QM/MM (CP2K+GROMACS)", "enhanced sampling & free-energy methods (PLUMED)", "minimum-energy path calculations (ASE)"]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": ["PyTorch", "scikit-learn", "ESMFold", "MACE (machine-learning interatomic potentials)"]
+    },
+    {
+      "name": "Programming & HPC",
+      "keywords": ["Python", "Fortran", "Julia", "MATLAB", "Bash", "ARCHER/ARCHER2/DIRAC national HPC clusters"]
+    },
+    {
+      "name": "Leadership & Grant Writing",
+      "keywords": ["research group management", "mentoring & supervision", "grant writing (NASA ROSES)", "workshop & event organisation", "peer review"]
     }
   ],
   "education": [
