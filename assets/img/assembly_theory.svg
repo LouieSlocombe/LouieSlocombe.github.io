@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-label="Plane of copy number against assembly index. Copy number accessible to undirected abiotic chemistry falls exponentially with assembly index, bounding a shaded region at low assembly index. An assembly threshold near a molecular assembly index of 15, together with the tandem mass spectrometry detection limit of about ten thousand copies, marks off a region reachable only by selection.">
+  <defs>
+    <marker id="atTick" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6f7681"/>
+    </marker>
+  </defs>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+    <!-- region reachable only with selection -->
+    <rect x="411" y="66" width="334" height="159" fill="#159a8c" opacity="0.10"/>
+    <rect x="411" y="66" width="334" height="159" fill="none" stroke="#159a8c" stroke-width="2" stroke-dasharray="7 6"/>
+
+    <!-- region accessible to undirected chemistry -->
+    <path d="M 70 370 L 70 80 L 405 370 Z" fill="#8f96a1" opacity="0.16"/>
+    <path d="M 70 80 L 405 370" stroke="#8f96a1" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    <!-- detection limit -->
+    <path d="M 70 225 L 750 225" stroke="#3d7fc1" stroke-width="1.6" stroke-dasharray="5 6" opacity="0.85" fill="none"/>
+
+    <!-- assembly threshold -->
+    <path d="M 405 52 L 405 380" stroke="#d98324" stroke-width="2.4" stroke-dasharray="9 6" fill="none"/>
+
+    <!-- axes -->
+    <path d="M 70 370 L 70 52" stroke="#6f7681" stroke-width="2" fill="none"/>
+    <path d="M 70 370 L 762 370" stroke="#6f7681" stroke-width="2" fill="none"/>
+
+    <!-- y ticks -->
+    <g stroke="#6f7681" stroke-width="1.6">
+      <path d="M 63 370 L 70 370"/>
+      <path d="M 63 297 L 70 297"/>
+      <path d="M 63 225 L 70 225"/>
+      <path d="M 63 152 L 70 152"/>
+      <path d="M 63 80 L 70 80"/>
+    </g>
+    <g fill="#6f7681" font-size="17" text-anchor="end">
+      <text x="57" y="376">10<tspan font-size="12" dy="-7">0</tspan></text>
+      <text x="57" y="303">10<tspan font-size="12" dy="-7">2</tspan></text>
+      <text x="57" y="231">10<tspan font-size="12" dy="-7">4</tspan></text>
+      <text x="57" y="158">10<tspan font-size="12" dy="-7">6</tspan></text>
+      <text x="57" y="86">10<tspan font-size="12" dy="-7">8</tspan></text>
+    </g>
+
+    <!-- x ticks -->
+    <g stroke="#6f7681" stroke-width="1.6">
+      <path d="M 70 370 L 70 377"/>
+      <path d="M 293 370 L 293 377"/>
+      <path d="M 517 370 L 517 377"/>
+      <path d="M 740 370 L 740 377"/>
+    </g>
+    <g fill="#6f7681" font-size="17" text-anchor="middle">
+      <text x="70" y="396">0</text>
+      <text x="293" y="396">10</text>
+      <text x="517" y="396">20</text>
+      <text x="740" y="396">30</text>
+    </g>
+
+    <!-- axis labels -->
+    <text x="24" y="215" fill="#6f7681" font-size="20" text-anchor="middle" transform="rotate(-90 24 215)">copy number</text>
+    <text x="416" y="416" fill="#6f7681" font-size="20" text-anchor="middle">assembly index</text>
+
+    <!-- threshold label -->
+    <text x="405" y="24" fill="#d98324" font-size="20" text-anchor="middle" font-weight="600">assembly threshold</text>
+    <text x="405" y="46" fill="#d98324" font-size="19" text-anchor="middle">MA ≈ 15</text>
+
+    <!-- annotations -->
+    <text x="272" y="98" fill="#6f7681" font-size="18" text-anchor="middle">copy number falls at least</text>
+    <text x="272" y="121" fill="#6f7681" font-size="18" text-anchor="middle">exponentially without selection</text>
+
+    <text x="396" y="214" fill="#3d7fc1" font-size="17" text-anchor="end">MS/MS detection limit</text>
+
+    <text x="216" y="306" fill="#6f7681" font-size="20" text-anchor="middle" font-weight="600">abiotic chemistry</text>
+    <text x="216" y="330" fill="#6f7681" font-size="18" text-anchor="middle">undirected exploration</text>
+
+    <text x="578" y="130" fill="#159a8c" font-size="21" text-anchor="middle" font-weight="600">life or technology</text>
+    <text x="578" y="158" fill="#159a8c" font-size="18" text-anchor="middle">high assembly index at</text>
+    <text x="578" y="180" fill="#159a8c" font-size="18" text-anchor="middle">high copy number</text>
+  </g>
+</svg>
