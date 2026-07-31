@@ -62,7 +62,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-assembly-theory",
           title: 'assembly theory',
-          description: "",
+          description: "measuring selection and causal depth in molecules, spectra, and planetary atmospheres",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-2d-materials-and-interfaces",
