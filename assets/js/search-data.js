@@ -55,9 +55,9 @@ ninja.data = [{
           section: "News",},{id: "news-a-new-publication-understanding-water-behaviour-on-2d-material-interfaces-published-at-nature-communications-here-is-the-paper",
           title: 'A new publication understanding water behaviour on 2D material interfaces published at Nature...',
           description: "",
-          section: "News",},{id: "projects-proton-transfer-dna",
-          title: 'proton transfer DNA',
-          description: "",
+          section: "News",},{id: "projects-proton-transfer-in-dna",
+          title: 'proton transfer in DNA',
+          description: "nuclear quantum effects, tautomerisation, and the origin of spontaneous point mutations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-assembly-theory",
