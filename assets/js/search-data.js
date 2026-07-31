@@ -82,7 +82,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%73%6C%6F%63%6F%6D%62@%61%73%75.%65%64%75", "_blank");
+          window.open("mailto:%6C.%73%6C%6F%63%6F%6D%62%65@%62%68%61%6D.%61%63.%75%6B", "_blank");
         },
       },{
         id: 'social-github',
@@ -124,7 +124,7 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://search.asu.edu/profile/5089643", "_blank");
+          window.open("https://research.birmingham.ac.uk/en/persons/louie-slocombe/", "_blank");
         },
       },{
       id: 'light-theme',
