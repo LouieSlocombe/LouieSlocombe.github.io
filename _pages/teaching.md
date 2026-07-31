@@ -21,11 +21,28 @@ Conducted seminars and hands-on research workshops to teach PhD students, postdo
 ## Teaching assistantships
 
 Total of four years of experience teaching foundational and advanced quantum mechanics, computational chemistry, soft
-matter, biological physics, software carpentry, HPC, and astronomy topics.
+matter, biological physics, software carpentry, HPC, and astronomy topics. Languages: Python, Fortran, Julia, MATLAB,
+and Bash.
+
+## Supervision and mentoring
+
+I supervise, mentor, and proactively support graduate, master's, and bachelor's students, acting as their first point
+of contact for guidance throughout a project.
+
+At Arizona State University's Beyond Center, I mentored, supervised, and trained postdocs (4), staff
+scientists (1), graduate students (12), and undergraduate students (4), and supported the onboarding of new group
+members. This included day-to-day management of a large interdisciplinary research lab, running weekly group
+meetings, training workshops, research seminars, and a journal club.
+
+At the University of Surrey, I contributed to the mentoring, supervising, and training of graduate (3) and
+undergraduate (4) students, and served as primary supervisor for two MPhys research students, guiding them through
+their research projects and writing. Both students produced first-author papers from their research year and
+received grades in the top 5% of the cohort (King et al., 2023; Warman et al., 2023).
 
 ## Assessment
 
-Designed and marked assessments for undergraduate and postgraduate courses in physics, chemistry, and biology.
+Graded undergraduate coursework for labs in scientific computing and written essays. Assessed projects and marked
+assignments for master's-level students.
 
 ## Course development
 
