@@ -4,5 +4,19 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  # Core, actively maintained tools
+  - ELIFE-ASU/assemblytheorytools
+  - ELIFE-ASU/assemblycfg
   - ELIFE-ASU/CBRdb
   - LouieSlocombe/HEOM.jl
+  - LouieSlocombe/esmfoldtools
+  - LouieSlocombe/esmfold-gaudi2-examples
+  - LouieSlocombe/openmmqmmm
+  - LouieSlocombe/reactiontools
+  # Code released alongside specific publications
+  - LouieSlocombe/MethylatedProtonTransfer
+  - LouieSlocombe/ASIC1_Selectivity_Q_vs_C
+  - LouieSlocombe/Watson-Crick-tautomerism-in-AT-and-GC-base-pairs
+  - LouieSlocombe/Effect-of-Helicase-Separation-on-GC-Tautomerism
+  - LouieSlocombe/Effect-of-Strand-Separation-on-AT-Tautomerism
+  - LouieSlocombe/H-Tunnelling-Graphene
