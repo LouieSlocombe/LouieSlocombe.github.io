@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>BEYOND Center for Fundamental Concepts in Science</p>
-    <p>Arizona State University</p>
-    <p>Tempe, AZ 85287</p>
+    <p>Scanlon Materials Theory Group (SMTG)</p>
+    <p>School of Chemistry</p>
+    <p>University of Birmingham</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,9 +28,9 @@ talks:
 
 ---
 
-I'm a postdoctoral researcher and lab manager at Arizona State University. I am interested in understanding how life
-utilises chemistry, by any means necessary, to function. I have a background in theoretical physics and chemistry, and I
-apply it to biological systems.
+I'm a postdoctoral researcher and group leader in the Scanlon Materials Theory Group (SMTG) at the University of
+Birmingham. I am interested in understanding how life utilises chemistry to function and interacts with its
+environment. I have a background in theoretical physics and chemistry, and I apply it to biochemical systems.
 
 **Sort bio**
 
@@ -40,6 +40,5 @@ transfer in DNA. After my PhD, I became a Research Fellow in Theoretical Quantum
 where I worked on open-quantum-systems models of proton transfer in DNA with explicit interactions of the replisome and
 quantum/classical contributions to ion selectivity in ion channels.
 
-Currently, I am Research Laboratory Manager at Arizona State University’s Beyond Center for Fundamental Concepts in
-Science, where I work with Prof. Sara Walker. Specific interest in applying complexity and graph theory to the 
-origins of life. Using assembly theory to measure selection in molecules, patents, atmospheres, and proteins.
+Currently, I am a postdoctoral researcher and group leader in the SMTG (David Scanlon's group), part of the School of
+Chemistry at the University of Birmingham. I was previously group leader at Arizona State University.
