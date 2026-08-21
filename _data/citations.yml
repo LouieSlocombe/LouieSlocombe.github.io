@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-21'
 papers:
   JISRQewAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: "Proton transfer in methylated G\u2013C: nuclear quantum effects and water-assisted hopping"
     year: '2025'
   JISRQewAAAAJ:2osOgNQ5qMEC:
-    citations: 172
+    citations: 177
     title: An open quantum systems approach to proton tunnelling in DNA
     year: '2022'
   JISRQewAAAAJ:3fE2CSJIrl8C:
@@ -30,11 +30,11 @@ papers:
     title: Conformational Dynamics of 8-Oxoguanine Mispairing Reveal a Mechanism of Polymerase {\lambda} Misincorporation
     year: '2025'
   JISRQewAAAAJ:9yKSN-GCB0IC:
-    citations: 94
+    citations: 96
     title: "Quantum and classical effects in DNA point mutations: Watson\u2013Crick tautomerism in AT and GC base pairs"
     year: '2021'
   JISRQewAAAAJ:IjCSPb-OGe4C:
-    citations: 33
+    citations: 34
     title: Proton transfer during DNA strand separation as a source of mutagenic guanine-cytosine tautomers
     year: '2022'
   JISRQewAAAAJ:LkGwnXOMwfcC:
@@ -50,7 +50,7 @@ papers:
     title: 'Beyond Quantum Coherence: Sub-Femtosecond Lifetimes Underscore Classical Origins of Selectivity in Acid-Sensing Ion Channel 1'
     year: '2025'
   JISRQewAAAAJ:Tyk-4Ss8FVUC:
-    citations: 13
+    citations: 14
     title: Tautomerisation mechanisms in the Adenine-Thymine Nucleobase pair during DNA strand separation
     year: '2023'
   JISRQewAAAAJ:UeHWp8X0CEIC:
@@ -62,17 +62,17 @@ papers:
     title: Computational Insight into the Intercalating Properties of Cryptolepine
     year: '2025'
   JISRQewAAAAJ:W7OEmFMy1HYC:
-    citations: 6
+    citations: 7
     title: How proton transfer impacts hachimoji DNA
     year: '2023'
   JISRQewAAAAJ:WF5omc3nYNoC:
-    citations: 9
+    citations: 10
     title: Multiscale simulations reveal the role of PcrA helicase in protecting against spontaneous point mutations in DNA
     year: '2023'
   JISRQewAAAAJ:Y0pCki6q_DkC:
-    citations: 31
+    citations: 33
     title: Quantum tunnelling effects in the guanine-thymine wobble misincorporation via tautomerism
-    year: '2022'
+    year: '2023'
   JISRQewAAAAJ:YOwf2qJgpHMC:
     citations: 0
     title: 'Searching for Life as We Don''t Know It: Detecting Signatures of Planetary-scale Complexity in Exoplanet Atmospheric Spectra'
@@ -94,7 +94,7 @@ papers:
     title: Quantifying Atmospheric Complexity for Life Detection on Exoplanets using Assembly Theory and Infrared Spectra
     year: '2026'
   JISRQewAAAAJ:d1gkVwhDpl0C:
-    citations: 248
+    citations: 251
     title: 'Quantum biology: An update and perspective'
     year: '2021'
   JISRQewAAAAJ:eQOLeE2rZwMC:
@@ -106,7 +106,7 @@ papers:
     title: The emergence of chirality from metabolism
     year: '2025'
   JISRQewAAAAJ:kNdYIx-mwKoC:
-    citations: 6
+    citations: 7
     title: Understanding water behaviour on 2D material interfaces through single-molecule motion on h-BN and graphene
     year: '2025'
   JISRQewAAAAJ:qxL8FJ1GzNcC:
