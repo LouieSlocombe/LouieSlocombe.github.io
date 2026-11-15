@@ -30,6 +30,16 @@ Keep this repository focused on the academic site. Theme demonstration pages, sa
 
 Unused blog archives, Distill posts, RSS feeds, embedded notebooks, tabs, comments, and newsletter integrations have also been removed, together with their build dependencies. Research cards use Bootstrap's grid without Masonry. Citation counts come from `_data/citations.yml`; the old build-time Google Scholar scraper has been removed.
 
+## Updating the research pages
+
+The homepage biography is in `_pages/about.md`: front matter supplies the introduction, prominent links, and portrait; the Markdown contains current research, the expanded background, and community work. `_layouts/about.liquid` arranges these with news and profile links, and `_sass/_about.scss` scopes the responsive styles. The homepage shows the three most recent announcements and links to the complete news page.
+
+The research overview at `/projects/` displays six themes from `_projects/`, ordered by `importance`. It leads with current polymer research and links to accessible accounts of the methods and collaborations behind it. Keep existing project URLs and section anchors stable.
+
+`_layouts/research.liquid` wraps the individual pages; `_includes/projects.liquid` renders the overview cards, and `_sass/_research.scss` scopes their styles. Each theme includes `research_context` and useful `img_alt` text alongside the usual card metadata. Citations reuse `_bibliography/papers.bib`; distinguish published results, accepted work, preprints, and ongoing projects in the prose.
+
+Illustrations are conceptual schematics. Editable VectorCraft files and their regeneration script live in `_figure_sources/research/`; the website uses SVG exports in `assets/img/research/`. See the source directory's README for editing instructions. Only name and link public research repositories; describe work in private repositories at the level of broad research themes.
+
 ## Updating the CV
 
 - `assets/json/resume.json` holds the profile, appointments, education, skills, funding, teaching, service, presentations, and awards. Use `YYYY-MM` for appointment dates, `YYYY` for education dates, and an empty `endDate` for a current role.

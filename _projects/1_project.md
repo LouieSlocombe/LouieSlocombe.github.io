@@ -1,121 +1,75 @@
 ---
-layout: page
+layout: research
 title: Proton transfer in DNA
-description: how moving a proton can change the way DNA is copied
-img: assets/img/proton_transfer_dna.svg
-importance: 1
+description: Can the motion of a single proton change how DNA is copied?
+img: assets/img/research/dna.svg
+img_alt: A proton moving between two DNA bases, changing their hydrogen-bonding arrangement.
+importance: 5
 category: projects
+research_context: Quantum biology · Surrey & collaborators
 related_publications: true
 ---
 
-A proton moving across a hydrogen bond can change the way a DNA base pairs. The resulting **tautomer**, a form with
-a different arrangement of hydrogen atoms, may pair with the wrong partner when DNA is copied. In 1963, Löwdin proposed
-that quantum tunnelling could drive this process and cause spontaneous point mutations. A persistent objection was
-that the tautomer would disappear in the warm, fluctuating environment of a cell before a polymerase could read it.
+DNA is copied by matching its molecular letters, or bases, with their partners. A small rearrangement of hydrogen atoms
+can change those pairing rules. I study whether **proton transfer**, including quantum tunnelling, can help create such
+changes and whether they last long enough to matter during replication.
 
-I study what happens to these protons during replication. With my collaborators, I combine electronic-structure
-calculations, quantum dynamics, and models of the surrounding water and enzymes to follow both the formation of a
-tautomer and its chances of surviving. The timing matters as much as the energy barrier.
+With my collaborators, I combine quantum calculations with simulations of water and enzymes. The central question is
+not only whether an unusual base pair can form, but what happens to it as the cell handles the DNA.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/proton_transfer_dna.svg" title="Double proton transfer in the G–C base pair" alt="Asymmetric double-well potential connecting the canonical G–C minimum to the higher-lying tautomeric G*–C* minimum, with a tunnelling pathway through the barrier" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Double proton transfer converts the canonical guanine–cytosine pair into the mutagenic tautomer G*–C* across an
-    asymmetric double-well potential. At biological temperatures, the tunnelling contribution to the transfer rate is
-    several orders of magnitude larger than that of classical over-the-barrier hopping.
-</div>
+{% include figure.liquid path="assets/img/research/dna.svg" alt=page.img_alt caption="Moving a proton can change a base’s hydrogen-bonding pattern. The resulting form is called a tautomer. The drawing illustrates the idea, rather than a complete DNA base pair." %}
 
 ## Mapping the energy landscape
 
-We began by mapping the reaction surface between the usual amino-keto base pairs and their imino-enol tautomers,
-using density functional theory and machine-learning nudged elastic band methods {% cite slocombe2021quantum %}.
-The two base pairs behave quite differently. In A–T, the reverse barrier is so small that A*–T* quickly returns to its
-usual form. G–C has a much larger thermal population of its tautomer, G*–C*, making it a candidate for further study
-as the DNA passes through the replication machinery.
+A **tautomer** is a form of a molecule with a different arrangement of hydrogen atoms and bonds. Our calculations map
+routes between ordinary DNA base pairs and their tautomers, and the energy barriers along the way. The adenine–thymine
+and guanine–cytosine pairs behave differently, so an explanation for one cannot simply be applied to the other
+{% cite slocombe2021quantum %}.
 
-## Tunnelling dominates, and decoherence does not kill it
+<h2 id="tunnelling-dominates-and-decoherence-does-not-kill-it">When quantum motion matters</h2>
 
-To follow the proton over time, we couple the base-pair potential to an open quantum systems master equation. This
-includes energy exchange with the surroundings and the loss of quantum coherence. Even in that environment,
-tunnelling contributes several orders of magnitude more to proton transfer than classical hopping over the barrier
-{% cite slocombe2022open %}.
+Quantum tunnelling allows a proton to cross a barrier that a classical particle would have to climb over. In our model
+of guanine–cytosine, tunnelling strongly increases proton transfer even when the base pair exchanges energy with its
+surroundings {% cite slocombe2022open %}.
 
-The usual and tautomeric forms exchange so quickly that the pair reaches thermal equilibrium well before the relevant
-biological processes occur. The calculated probability of finding it in the tautomeric form is **1.73 × 10⁻⁴**,
-orders of magnitude above the observed rate of spontaneous point mutations. That leaves a crucial step to understand:
-how many of those tautomers survive long enough for a polymerase to read them?
+A calculated tautomer population is only one part of a possible mutation mechanism. Its biological significance depends
+on the lifetime of that state and on the enzymes that separate and copy the strands.
 
-## Strand separation traps the tautomer
+<h2 id="strand-separation-traps-the-tautomer">What happens as the strands separate?</h2>
 
-During replication, the two DNA strands separate. We found that double proton transfer follows a sequential,
-step-like mechanism, with a barrier that rises quasi-linearly as the bases move apart
-{% cite slocombe2022protontransfer %}. This slows the formation of new tautomers, but it also makes existing ones
-much more stable. A tautomer present when the strands begin to unzip can therefore become trapped.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/proton_transfer_strand_separation.svg" title="Effect of strand separation on the proton transfer landscape" alt="Potential energy curves for the closed duplex and for separating strands, showing a higher barrier and a stabilised tautomer minimum as the strands unzip" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    As the hydrogen bonds stretch during strand separation, the transfer barrier grows and the reaction asymmetry falls,
-    stabilising the tautomer rather than destroying it.
-</div>
-
-Molecular dynamics lets us estimate how long that survival window needs to be. Across 210 simulations and 1,442
-separation events, the strands part at roughly 1.2 Å ps⁻¹. A tautomer needs to survive for about **1.7 ps** to be carried
-through, compared with the roughly 100 ps assumed in earlier work.
-
-This also changes the picture for A–T. Although A*–T* is unstable in the closed duplex, it becomes more stable as the
-strands unzip and the hydrogen bonds stretch. Strand separation could therefore allow a proton-transfer route to A–T
-point mutations that would be missed by considering the closed pair alone {% cite king2023tautomerisation %}.
+DNA must unzip before it can be copied. We found that stretching the hydrogen bonds changes the reaction landscape:
+it can slow the formation of a tautomer while also making an existing one harder to reverse
+{% cite slocombe2022protontransfer %}. Related work on adenine–thymine shows why the separating strands need to be
+considered alongside the closed double helix {% cite king2023tautomerisation %}.
 
 ## The enzymes change the answer
 
-The proteins handling DNA have a strong influence on this process. In QM/MM simulations of the bacterial PcrA helicase,
-the protein raises the forward barrier from 0.60 ± 0.04 eV in aqueous DNA to 1.24 ± 0.07 eV in the helicase site.
-It also raises the reaction asymmetry from 0.54 ± 0.08 eV to 1.68 ± 0.10 eV. Together, these changes reduce the
-tautomeric equilibrium constant by roughly eighteen orders of magnitude {% cite winokan2023multiscale %}.
-Asparagine N624 plays a particularly strong role, suggesting that suppressing spontaneous mutation may be one of its
-secondary functions. The calculations also show why individual configurations matter: averaging over an ensemble
-can hide features of the reaction profile that affect tunnelling.
+The proteins handling DNA are active participants in this chemistry. Our simulations of the PcrA helicase, an enzyme
+that separates the strands, show that its local environment can strongly suppress guanine–cytosine tautomer formation
+{% cite winokan2023multiscale %}.
 
-In the polymerase active site, we find the opposite effect. A QM/MM model of guanine–thymine wobble misincorporation,
-coupled to an open quantum systems master equation, reveals a short-lived configuration that increases the proton
-transfer rate roughly **a hundredfold** {% cite slocombe2023tunnelling %}. The predicted error rates agree with
-experimentally observed replication error frequencies. A kinetic isotope effect of around ten also offers a way to
-test the proposed mechanism experimentally.
-
-These results make the surrounding enzyme central to the explanation. Proton transfer can be fast, but its relevance
-to a mutation depends on where it happens and what happens to the base pair next.
+In a different setting, the DNA-copying enzyme polymerase can help a guanine–thymine mismatch access a different pairing
+arrangement through proton transfer {% cite slocombe2023tunnelling %}. Comparing these cases helps us understand why the
+same chemical process may have different consequences in different parts of the replication machinery.
 
 ## Beyond the canonical bases
 
-We've also used these methods to look at modified bases and synthetic genetic alphabets:
+More recent collaborative work examines **O6-methylguanine**, a chemically modified base. Methylation disrupts its
+hydrogen bonding, while nearby water can provide another route for proton transfer {% cite de2025proton %}.
 
-- **Synthetic genetic alphabets.** In hachimoji DNA, which extends the alphabet with the bases Z, P, S, and B, the
-  proton transfer barriers for the Z–P and S–B pairs are around 30% lower than for G–C and A–T
-  {% cite warman2023proton %}. Proton transfer should therefore be markedly more frequent than in canonical DNA, with
-  a corresponding cost in replication fidelity for synthetic biology applications.
-- **Epigenetic and damage-induced modifications.** Methylation of guanine at the O6 position disrupts the hydrogen
-  bonding of the pair and hinders proton transfer, but explicit water opens a water-assisted hopping channel that
-  lowers the barriers again {% cite de2025proton %}. Understanding the effect on mutagenesis therefore requires us
-  to include the water molecules that participate in the reaction.
+We have also investigated **hachimoji DNA**, a synthetic genetic system with additional letters, to ask how changing the
+base chemistry affects proton-transfer pathways {% cite warman2023proton %}. Together, these studies test how far ideas
+from ordinary DNA extend to modified and synthetic systems.
 
 ## Methods
 
-Each method answers a different part of the question. Hybrid density functional theory and machine-learning-accelerated
-nudged elastic band calculations give us reaction paths and barriers. QM/MM places the base pair inside an enzyme,
-while classical molecular dynamics samples strand separation and base-opening angles. Open quantum systems master
-equations then describe how the proton moves while exchanging energy and losing coherence to its surroundings.
-Combining these calculations lets us connect the molecular energy landscape to the timescales of DNA replication.
+I develop [simulation tools]({{ '/projects/molecular_simulation.html' | relative_url }}) that connect reaction paths,
+quantum nuclear motion, and the surrounding molecular environment. Public inputs and analysis for several studies are
+listed under [code behind the papers]({{ '/repositories/' | relative_url }}#paper-code).
 
 ## Related threads
 
-The same questions arise elsewhere in biology, sometimes with a different answer. Our work on the acid-sensing ion
-channel ASIC1 finds coherence lifetimes below a femtosecond, pointing to a classical explanation for its selectivity
-{% cite vallee2025beyond %}. For a broader discussion of where quantum effects matter in biology, see our review
-{% cite kim2021quantum %}.
+Quantum effects do not play the same role in every biological system. Our **ASIC1 ion-channel preprint** investigates
+why this membrane protein favours particular ions. Its calculations find extremely short coherence lifetimes and
+support a classical explanation of selectivity; the manuscript remains under review {% cite vallee2025beyond %}.
+Our broader review discusses the range of questions studied in quantum biology {% cite kim2021quantum %}.

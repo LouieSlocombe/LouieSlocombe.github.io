@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="360" viewBox="0 0 720 360">
+  <title>Research: assembly</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect x="0" y="0" width="720" height="360" fill="#f3f6f8"/>
+    <text transform="matrix(1 0 0 1 124 63)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">1 join</tspan></text>
+    <text transform="matrix(1 0 0 1 124 128)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="28" fill="#647687" text-anchor="middle"><tspan x="0" y="0">A + B</tspan></text>
+    <g>
+      <g>
+        <path d="M125.5 150 L125.5 183.7 C125.5 184.528 124.828 185.2 124 185.2 C123.172 185.2 122.5 184.528 122.5 183.7 L122.5 150 C122.5 149.172 123.172 148.5 124 148.5 C124.828 148.5 125.5 149.172 125.5 150" fill="#647687"/>
+        <path d="M124 187 L120.7 180.4 L127.3 180.4 Z" fill="#647687"/>
+      </g>
+    </g>
+    <rect x="92" y="210" width="30" height="48" fill="#16746e"/>
+    <text transform="matrix(1 0 0 1 107 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">A</tspan></text>
+    <rect x="124" y="210" width="30" height="48" fill="#7453a4"/>
+    <text transform="matrix(1 0 0 1 139 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">B</tspan></text>
+    <text transform="matrix(1 0 0 1 360 63)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">2 joins</tspan></text>
+    <text transform="matrix(1 0 0 1 360 128)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="28" fill="#647687" text-anchor="middle"><tspan x="0" y="0">AB + C</tspan></text>
+    <g>
+      <g>
+        <path d="M361.5 150 L361.5 183.7 C361.5 184.528 360.828 185.2 360 185.2 C359.172 185.2 358.5 184.528 358.5 183.7 L358.5 150 C358.5 149.172 359.172 148.5 360 148.5 C360.828 148.5 361.5 149.172 361.5 150" fill="#647687"/>
+        <path d="M360 187 L356.7 180.4 L363.3 180.4 Z" fill="#647687"/>
+      </g>
+    </g>
+    <rect x="312" y="210" width="30" height="48" fill="#16746e"/>
+    <text transform="matrix(1 0 0 1 327 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">A</tspan></text>
+    <rect x="344" y="210" width="30" height="48" fill="#7453a4"/>
+    <text transform="matrix(1 0 0 1 359 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">B</tspan></text>
+    <rect x="376" y="210" width="30" height="48" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 391 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">C</tspan></text>
+    <text transform="matrix(1 0 0 1 596 63)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">3 joins</tspan></text>
+    <text transform="matrix(1 0 0 1 596 128)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="28" fill="#647687" text-anchor="middle"><tspan x="0" y="0">ABC + ABC</tspan></text>
+    <g>
+      <g>
+        <path d="M597.5 150 L597.5 183.7 C597.5 184.528 596.828 185.2 596 185.2 C595.172 185.2 594.5 184.528 594.5 183.7 L594.5 150 C594.5 149.172 595.172 148.5 596 148.5 C596.828 148.5 597.5 149.172 597.5 150" fill="#647687"/>
+        <path d="M596 187 L592.7 180.4 L599.3 180.4 Z" fill="#647687"/>
+      </g>
+    </g>
+    <rect x="500" y="210" width="30" height="48" fill="#16746e"/>
+    <text transform="matrix(1 0 0 1 515 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">A</tspan></text>
+    <rect x="532" y="210" width="30" height="48" fill="#7453a4"/>
+    <text transform="matrix(1 0 0 1 547 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">B</tspan></text>
+    <rect x="564" y="210" width="30" height="48" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 579 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">C</tspan></text>
+    <rect x="596" y="210" width="30" height="48" fill="#16746e"/>
+    <text transform="matrix(1 0 0 1 611 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">A</tspan></text>
+    <rect x="628" y="210" width="30" height="48" fill="#7453a4"/>
+    <text transform="matrix(1 0 0 1 643 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">B</tspan></text>
+    <rect x="660" y="210" width="30" height="48" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 675 243)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle"><tspan x="0" y="0">C</tspan></text>
+    <text transform="matrix(1 0 0 1 360 320)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Build a fragment, then reuse it</tspan></text>
+  </g>
+</svg>

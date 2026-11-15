@@ -1,0 +1,12 @@
+---
+layout: page
+---
+<div class="research-detail">
+  <p class="research-context">{{ page.research_context }}</p>
+  {{ content }}
+  <nav class="research-links" aria-label="More research">
+    <a href="{{ '/projects/' | relative_url }}">All research themes</a>
+    <a href="{{ '/repositories/' | relative_url }}">Research code</a>
+    <a href="{{ '/publications/' | relative_url }}">All publications</a>
+  </nav>
+</div>

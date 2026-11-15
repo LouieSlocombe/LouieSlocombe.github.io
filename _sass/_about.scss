@@ -1,0 +1,306 @@
+.about-page {
+  .about-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 230px;
+    grid-template-areas: "heading portrait" "introduction portrait" "actions portrait";
+    gap: 1.25rem 2.75rem;
+    align-items: start;
+    margin-bottom: 3rem;
+  }
+
+  .about-heading {
+    grid-area: heading;
+
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: clamp(2.25rem, 4vw, 3.2rem);
+      line-height: 1.1;
+      letter-spacing: -0.035em;
+    }
+  }
+
+  .about-subtitle {
+    margin-bottom: 0;
+    font-size: 1.05rem;
+  }
+
+  .about-introduction {
+    grid-area: introduction;
+    line-height: 1.7;
+
+    p:first-child {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .about-profile {
+    grid-area: portrait;
+
+    figure {
+      margin-bottom: 1rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 3 / 4;
+    }
+
+    .more-info {
+      font-size: 0.8rem;
+      line-height: 1.6;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .about-actions,
+  .about-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.85rem 1.25rem;
+
+    a {
+      text-underline-offset: 0.2em;
+    }
+  }
+
+  .about-actions {
+    grid-area: actions;
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+  }
+
+  .about-primary-link {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 0.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: var(--global-code-bg-color);
+
+    span {
+      color: inherit;
+      margin-left: 0.3rem;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .about-text-link,
+  .about-links a {
+    text-decoration: underline;
+  }
+
+  a:focus-visible {
+    outline: 3px solid var(--global-theme-color);
+    outline-offset: 4px;
+  }
+
+  .about-eyebrow {
+    color: var(--global-theme-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.035em;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-focus {
+    padding: 2rem;
+    margin-bottom: 3.5rem;
+    background: var(--global-code-bg-color);
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 0 0.5rem 0.5rem 0;
+
+    h2 {
+      max-width: 28ch;
+      margin-bottom: 1.5rem;
+      font-size: clamp(1.65rem, 3vw, 2.1rem);
+      line-height: 1.25;
+      font-weight: 500;
+    }
+
+    .about-links {
+      border-top: 1px solid var(--global-divider-color);
+      padding-top: 1.25rem;
+      margin-top: 1.25rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  .about-focus-intro {
+    display: grid;
+    grid-template-columns: 1fr 1.15fr;
+    gap: 1.5rem;
+    align-items: center;
+    line-height: 1.7;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      border-radius: 0.3rem;
+    }
+
+    .caption {
+      margin: 0.6rem 0 0;
+      font-size: 0.75rem;
+      line-height: 1.5;
+    }
+  }
+
+  .about-approaches {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.75rem;
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+  }
+
+  .about-background {
+    > p {
+      max-width: 75ch;
+      line-height: 1.7;
+    }
+
+    > .about-links {
+      margin-top: 1.5rem;
+    }
+  }
+
+  .about-history {
+    margin-top: 2rem;
+  }
+
+  .about-history-entry {
+    display: grid;
+    grid-template-columns: 155px minmax(0, 1fr);
+    gap: 2rem;
+    border-top: 1px solid var(--global-divider-color);
+    padding: 1.75rem 0 0.25rem;
+
+    h3 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      line-height: 1.35;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    .about-period {
+      color: var(--global-theme-color);
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+  }
+
+  .about-community,
+  .about-news {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .about-community p {
+    max-width: 75ch;
+    line-height: 1.7;
+  }
+
+  .about-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  @media (max-width: 767px) {
+    .about-hero {
+      grid-template-columns: minmax(0, 1fr) 110px;
+      grid-template-areas: "heading portrait" "introduction introduction" "actions actions";
+      gap: 1.5rem 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .about-profile {
+      figure {
+        margin: 0;
+      }
+
+      .more-info {
+        display: none;
+      }
+    }
+
+    .about-focus {
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .about-focus-intro {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+
+    .about-approaches {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .about-history-entry {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+
+      .about-period {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+
+  @media (max-width: 359px) {
+    .about-hero {
+      grid-template-columns: minmax(0, 1fr) 85px;
+    }
+
+    .about-heading h1 {
+      font-size: 2rem;
+    }
+
+    .about-focus {
+      padding: 1.1rem;
+    }
+  }
+}
+
+html[data-theme="dark"] .about-page {
+  .about-primary-link,
+  .about-eyebrow,
+  .about-focus a {
+    color: color-mix(in srgb, var(--global-theme-color) 65%, var(--global-text-color));
+  }
+}

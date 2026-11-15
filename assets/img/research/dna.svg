@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="360" viewBox="0 0 720 360">
+  <title>Research: dna</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect x="0" y="0" width="720" height="360" fill="#f3f6f8"/>
+    <text transform="matrix(1 0 0 1 178 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">A base pair</tspan></text>
+    <text transform="matrix(1 0 0 1 548 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">A different pairing pattern</tspan></text>
+    <rect x="61" y="110" width="72" height="135" fill="#e3eeed" stroke="#16746e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="223" y="110" width="72" height="135" fill="#eae5f2" stroke="#7453a4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="140" y1="147" x2="145" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="154" y1="147" x2="159" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="168" y1="147" x2="173" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="182" y1="147" x2="187" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="196" y1="147" x2="201" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="210" y1="147" x2="215" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="140" y1="207" x2="145" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="154" y1="207" x2="159" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="168" y1="207" x2="173" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="182" y1="207" x2="187" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="196" y1="207" x2="201" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="210" y1="207" x2="215" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="153" cy="147" r="12" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 178 289)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Proton on the left</tspan></text>
+    <rect x="431" y="110" width="72" height="135" fill="#e3eeed" stroke="#16746e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="593" y="110" width="72" height="135" fill="#eae5f2" stroke="#7453a4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="510" y1="147" x2="515" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="524" y1="147" x2="529" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="538" y1="147" x2="543" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="552" y1="147" x2="557" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="566" y1="147" x2="571" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="580" y1="147" x2="585" y2="147" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="510" y1="207" x2="515" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="524" y1="207" x2="529" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="538" y1="207" x2="543" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="552" y1="207" x2="557" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="566" y1="207" x2="571" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="580" y1="207" x2="585" y2="207" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="573" cy="147" r="12" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 548 289)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Proton on the right</tspan></text>
+    <g>
+      <g>
+        <path d="M329 172.5 L386.7 172.5 C387.528 172.5 388.2 173.172 388.2 174 C388.2 174.828 387.528 175.5 386.7 175.5 L329 175.5 C328.172 175.5 327.5 174.828 327.5 174 C327.5 173.172 328.172 172.5 329 172.5" fill="#647687"/>
+        <path d="M390 174 L383.4 177.3 L383.4 170.7 Z" fill="#647687"/>
+      </g>
+    </g>
+    <text transform="matrix(1 0 0 1 360 335)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="23" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">A small rearrangement can change hydrogen bonding</tspan></text>
+  </g>
+</svg>
