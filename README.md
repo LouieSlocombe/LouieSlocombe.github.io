@@ -30,6 +30,16 @@ The site is then served at `http://localhost:4000`.
 - The teaching page reuses the teaching entries in `resume.json` so the two pages stay in sync.
 - The CV is presented as web content only. Do not add a downloadable CV PDF or PDF download links.
 
+## Updating the code catalogue
+
+The `/repositories/` page is built from `_data/repositories.yml`. Each group has a stable anchor `id`, a title, introductory copy and a `projects` list. Each project has a GitHub `owner/repo`, display name, kind, language, short summary and topic tags; optional `docs` and `paper` fields add related links. List each repository once and label collaborative work, templates and experiments explicitly. Check the README and source before describing functionality, especially for repositories that still contain starter code.
+
+**Selection rule: do not include forks or very small contributions.** This is a curated portfolio of original work and substantial collaborations, not a complete GitHub inventory. Exclude personal and group forks, copied upstream utilities, and projects where Louie's involvement is limited to small fixes, packaging or publishing. A repository appearing in GitHub's ownership or contribution history does not establish a substantial role. Keep the deliberately excluded repositories listed in the comments at the top of `_data/repositories.yml` out of future refreshes unless Louie explicitly changes this preference.
+
+**Ordering rule: highest impact and most substantial contributions first within each category.** The order of each `projects` list is the display order, including during search. Maintain a rough editorial balance of scientific significance, Louie's original development and research role, usefulness to other work, and project maturity. For paper companions, consider the accompanying research and the value of its reproducibility materials. Put broadly useful, substantial projects ahead of narrow helpers, examples, scaffolds and profile repositories. This is a qualitative judgement, not a measured impact score; do not automatically replace it with alphabetical, newest-first, star-count or commit-count ordering.
+
+`_pages/repositories.md` renders all entries as static HTML, with optional browser-side search in `assets/js/repositories.js`. Styling lives in `_sass/_repositories.scss` and follows the site's light and dark themes. Update the review month after checking the catalogue against GitHub.
+
 ## License
 
 Site content is mine; the underlying theme is [al-folio](https://github.com/alshedivat/al-folio), MIT licensed (see [LICENSE](LICENSE)).
