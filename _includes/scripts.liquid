@@ -13,23 +13,6 @@
   crossorigin="anonymous"
 ></script>
 
-{% if site.enable_masonry %}
-  <!-- Masonry & imagesLoaded -->
-  <script
-    defer
-    src="{{ site.third_party_libraries.masonry.url.js }}"
-    integrity="{{ site.third_party_libraries.masonry.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    defer
-    src="{{ site.third_party_libraries.imagesloaded.url.js }}"
-    integrity="{{ site.third_party_libraries.imagesloaded.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
-  <script defer src="{{ '/assets/js/masonry.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
-{% endif %}
-
 {% if page.mermaid and page.mermaid.enabled %}
   <!-- Mermaid and D3 -->
   <script
@@ -184,9 +167,6 @@
 <script defer src="{{ '/assets/js/common.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/copy_code.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 
-<!-- Jupyter Open External Links New Tab -->
-<script defer src="{{ '/assets/js/jupyter_new_tab.js' | relative_url | bust_file_cache }}"></script>
-
 <!-- Badges -->
 {% if site.enable_publication_badges.altmetric %}
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
@@ -300,11 +280,6 @@
   {% endif %}
 {% endif %}
 
-{% if page.tabs %}
-  <!-- Jekyll Tabs -->
-  <script src="{{ '/assets/js/tabs.min.js' | relative_url | bust_file_cache }}"></script>
-{% endif %}
-
 {% if site.back_to_top %}
   <!-- Back to Top -->
   <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
@@ -320,8 +295,4 @@
   <script src="{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}"></script>
   <script src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
-{% endif %}
-
-{% if site.newsletter.enabled %}
-  <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}

@@ -2,7 +2,6 @@
 **/*.min.css
 **/*.min.js
 assets/css/main.scss
-assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss

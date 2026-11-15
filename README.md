@@ -15,6 +15,8 @@ The site is then served at `http://localhost:4000`.
 
 Deploy through `.github/workflows/deploy.yml`, which builds the source with Jekyll, purges unused CSS and publishes to GitHub Pages. Generated files in `_site/` should not be edited or committed.
 
+Site builds need Ruby, Node.js and ImageMagick. Python dependencies in `requirements.txt` are only for `bin/update_scholar_citations.py` and its scheduled workflow.
+
 ## Structure
 
 - `_pages/` — static pages (about, CV, projects, publications, …)
@@ -25,6 +27,8 @@ Deploy through `.github/workflows/deploy.yml`, which builds the source with Jeky
 - `assets/` — images, CSS, and other static assets
 
 Keep this repository focused on the academic site. Theme demonstration pages, sample media, superseded CV and repository-card templates, and upstream theme release workflows have been removed. Retain dated research, publications and news as part of the academic record. The homepage's selected-publications section is disabled until papers are explicitly marked `selected={true}` in the bibliography.
+
+Unused blog archives, Distill posts, RSS feeds, embedded notebooks, tabs, comments and newsletter integrations have also been removed, together with their build dependencies. Research cards use Bootstrap's grid without Masonry. Citation counts come from `_data/citations.yml`; the old build-time Google Scholar scraper has been removed.
 
 ## Updating the CV
 
