@@ -18,8 +18,8 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: false # keep the latest items visible without a nested scroll area
+  limit: 6 # leave blank to include all the news in the `_news` folder
 ---
 
 I’m a computational physicist and theoretical chemist, and a Group Leader Research Fellow in the

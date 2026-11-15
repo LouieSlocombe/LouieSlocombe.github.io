@@ -4,4 +4,5 @@ date: 2025-10-27 00:00:00-0000
 inline: true
 ---
 
-We released a new version of CBR-db a curated biochemical database for studies on origins of biochemistry. The reproducible code and database can be found [here](https://github.com/ELIFE-ASU/CBRdb).
+We’ve released a new version of [CBR-db](https://github.com/ELIFE-ASU/CBRdb), our curated biochemical reaction database
+for studying the origins of biochemistry. The code and data are available to explore and reuse.
