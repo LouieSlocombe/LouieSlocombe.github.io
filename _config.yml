@@ -9,11 +9,12 @@ last_name: Slocombe
 contact_note: >
   Feel free to reach out if you want to collaborate.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Louie Slocombe — computational physicist and theoretical chemist at the University of Birmingham.
+  Research in computational chemistry, quantum biology, machine learning and sustainable polymers.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Louie Slocombe, computational chemistry, quantum biology, machine learning, sustainable polymers
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -278,6 +279,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year
+  order: descending
   group_by: year
   group_order: descending
 
@@ -310,6 +313,7 @@ filtered_bibtex_keywords:
     poster,
     preview,
     selected,
+    cv_group,
     slides,
     supp,
     video,
@@ -622,16 +626,4 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# CV sections and order are configured in _data/cv_sections.yml.

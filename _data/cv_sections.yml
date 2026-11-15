@@ -1,0 +1,40 @@
+- key: work
+  title: Research & professional experience
+  nav: Experience
+  type: entries
+- key: education
+  title: Education & qualifications
+  nav: Education
+  type: entries
+- key: skills
+  title: Methods & technical expertise
+  nav: Expertise
+  type: skills
+- key: funding
+  title: Research funding & resources
+  nav: Funding
+  type: entries
+- key: publications
+  title: Publications
+  nav: Publications
+  type: bibliography
+- key: preprints
+  title: Preprints & manuscripts
+  nav: Preprints
+  type: bibliography
+- key: teaching
+  title: Teaching & mentoring
+  nav: Teaching
+  type: groups
+- key: service
+  title: Academic service & leadership
+  nav: Service
+  type: groups
+- key: presentations
+  title: Talks & conference presentations
+  nav: Presentations
+  type: groups
+- key: awards
+  title: Awards & recognition
+  nav: Recognition
+  type: entries

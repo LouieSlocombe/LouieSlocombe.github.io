@@ -2,23 +2,30 @@
 layout: page
 permalink: /publications/
 title: publications
-description:
+description: Research in quantum biology, molecular simulation, chemical complexity and machine learning.
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-A summary of my publication. See my <a href="https://scholar.google.com/citations?user=JISRQewAAAAJ">Google Scholar</a>
-profile for the most up to date list.
-
-
-<!-- Bibsearch Feature -->
+Journal articles, conference contributions, preprints and manuscripts. See my
+[Google Scholar profile](https://scholar.google.com/citations?user=JISRQewAAAAJ)
+for citation information and my [CV]({{ '/cv/' | relative_url }}) for the wider research record.
 
 {% include bib_search.liquid %}
 
 <div class="publications">
+  <section class="publication-group">
+    <h2>Journal articles &amp; accepted papers</h2>
+    {% bibliography --query @*[cv_group=published] %}
+  </section>
 
-{% bibliography %}
+  <section class="publication-group">
+    <h2>Conference contributions</h2>
+    {% bibliography --query @*[cv_group=conference] %}
+  </section>
 
+  <section class="publication-group">
+    <h2>Preprints &amp; manuscripts</h2>
+    {% bibliography --query @*[cv_group=preprint] %}
+  </section>
 </div>

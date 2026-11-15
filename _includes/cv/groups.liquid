@@ -1,0 +1,7 @@
+{% for group in include.groups %}
+  <div class="cv-group">
+    <h{{ include.heading | default: 3 }} class="cv-group-title">{{ group.name | escape }}</h{{ include.heading | default: 3 }}>
+    {% assign entry_heading = include.heading | default: 3 | plus: 1 %}
+    {% include cv/entries.liquid entries=group.entries heading=entry_heading %}
+  </div>
+{% endfor %}

@@ -1,0 +1,18 @@
+<div class="cv-publication">
+  <p class="cv-publication-title">{{ entry.title }}</p>
+  <p class="cv-entry-detail">
+    {% for author in entry.author_array %}
+      {%- if author.last == 'Slocombe' -%}<strong>{%- endif -%}{{ author.first }} {{ author.prefix }} {{ author.last }}{%- if author.last == 'Slocombe' -%}</strong>{%- endif -%}{% unless forloop.last %}; {% endunless %}
+    {% endfor %}
+  </p>
+  <p>
+    <cite>{{ entry.journal | default: entry.booktitle }}</cite>{% if entry.volume %}, {{ entry.volume }}{% endif %}{% if entry.number %}({{ entry.number }}){% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}. {{ entry.year }}.
+  </p>
+  {% if entry.note %}<p class="cv-publication-note">{{ entry.note }}</p>{% endif %}
+  {% if entry.doi or entry.arxiv %}
+    <p class="cv-publication-links">
+      {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}" aria-label="DOI for {{ entry.title | strip_html | escape }}">DOI</a>{% endif %}
+      {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}" aria-label="arXiv preprint of {{ entry.title | strip_html | escape }}">arXiv</a>{% endif %}
+    </p>
+  {% endif %}
+</div>

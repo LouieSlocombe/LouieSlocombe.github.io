@@ -1,0 +1,7 @@
+{%- assign cv_date = include.value -%}
+{%- assign date_parts = cv_date | split: '-' -%}
+{%- if date_parts.size > 1 -%}
+  <time datetime="{{ cv_date | escape }}">{{ cv_date | append: '-01' | date: '%b %Y' }}</time>
+{%- else -%}
+  <time datetime="{{ cv_date | escape }}">{{ cv_date | escape }}</time>
+{%- endif -%}
