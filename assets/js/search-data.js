@@ -1,83 +1,98 @@
 // get the ninja-keys element
 const ninja = document.querySelector('ninja-keys');
 
-// add the home and posts menu items
+// Add navigation, news, research and profile links.
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "",
+          title: "Publications",
+          description: "Research in quantum biology, molecular simulation, chemical complexity, and machine learning.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-research",
-          title: "research",
-          description: "Here is a list of research projects I have worked on or am currently working on.",
+          title: "Research",
+          description: "Understanding molecules, from the materials we make to the chemistry of life.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-code",
-          title: "code",
-          description: "Software and repositories I have developed and contributed to.",
+          title: "Code",
+          description: "Software I&#39;ve written and helped develop for molecular simulation, materials, and chemical complexity.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
-          description: "",
+          title: "CV",
+          description: "My research career, teaching, and work in the wider scientific community.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "",
+          title: "Teaching",
+          description: "Helping students and researchers put computational methods to work in physics and chemistry.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "news-i-co-chaired-the-quantum-biology-gordon-research-symposium-in-tuscany-with-jana-vuckovic-bringing-together-49-early-career-researchers-i-raised-22-000-to-support-attendance-by-underrepresented-and-minority-researchers-and-helped-to-shape-the-programme-more-about-my-scientific-community-work",
+          title: 'I co-chaired the Quantum Biology Gordon Research Symposium in Tuscany with Jana Vuckovic,...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-we-released-a-new-version-of-cbr-db-a-curated-biochemical-database-for-studies-on-origins-of-biochemistry-the-reproducible-code-and-database-can-be-found-here",
-          title: 'We released a new version of CBR-db a curated biochemical database for studies...',
+          section: "News",},{id: "news-we-ve-released-a-new-version-of-cbr-db-our-curated-biochemical-reaction-database-for-studying-the-origins-of-biochemistry-the-code-and-data-are-available-to-explore-and-reuse",
+          title: 'We’ve released a new version of CBR-db, our curated biochemical reaction database for...',
           description: "",
-          section: "News",},{id: "news-a-new-publication-understanding-water-behaviour-on-2d-material-interfaces-published-at-nature-communications-here-is-the-paper",
-          title: 'A new publication understanding water behaviour on 2D material interfaces published at Nature...',
+          section: "News",},{id: "news-our-paper-on-water-behaviour-on-two-dimensional-material-interfaces-is-out-in-nature-communications-we-examine-how-individual-water-molecules-move-on-hexagonal-boron-nitride-and-graphene",
+          title: 'Our paper on water behaviour on two-dimensional material interfaces is out in Nature...',
+          description: "",
+          section: "News",},{id: "news-i-received-a-best-poster-prize-at-frontiers-and-challenges-in-quantum-biology-at-the-niels-bohr-institute-in-copenhagen-the-poster-with-marco-sacchi-explored-nuclear-quantum-effects-in-guanine-thymine-misincorporation-in-dna-polymerase-λ",
+          title: 'I received a Best Poster prize at Frontiers and Challenges in Quantum Biology...',
+          description: "",
+          section: "News",},{id: "news-our-new-preprint-on-proteome-elemental-composition-with-l-felipe-benites-and-sara-walker-looks-at-the-elements-that-make-up-proteins-across-cellular-and-viral-life-we-find-striking-consistency-across-thousands-of-proteomes-and-explore-what-this-might-tell-us-about-the-origins-of-the-amino-acid-alphabet",
+          title: 'Our new preprint on proteome elemental composition, with L. Felipe Benites and Sara...',
+          description: "",
+          section: "News",},{id: "news-i-ve-joined-the-scanlon-materials-theory-group-at-the-university-of-birmingham-as-a-group-leader-research-fellow-i-ll-be-working-with-david-scanlon-on-computational-chemistry-and-machine-learning-for-sustainable-polymers-with-a-focus-on-predicting-biodegradability-more-about-my-research-and-background",
+          title: 'I’ve joined the Scanlon Materials Theory Group at the University of Birmingham as...',
           description: "",
           section: "News",},{id: "projects-proton-transfer-in-dna",
-          title: 'proton transfer in DNA',
-          description: "nuclear quantum effects, tautomerisation, and the origin of spontaneous point mutations",
+          title: 'Proton transfer in DNA',
+          description: "Can the motion of a single proton change how DNA is copied?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-assembly-theory",
-          title: 'assembly theory',
-          description: "measuring selection and causal depth in molecules, spectra, and planetary atmospheres",
+            },},{id: "projects-molecular-complexity-amp-assembly-theory",
+          title: 'Molecular complexity &amp;amp; assembly theory',
+          description: "What can a molecule’s construction tell us about the processes that made it?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-2d-materials-and-interfaces",
-          title: '2d materials and interfaces',
-          description: "",
+            },},{id: "projects-biochemical-origins-amp-proteins",
+          title: 'Biochemical origins &amp;amp; proteins',
+          description: "What patterns connect life’s reaction networks, molecular building blocks, and proteins?",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
+              window.location.href = "/projects/biochemical_origins.html";
+            },},{id: "projects-molecular-simulation-amp-quantum-dynamics",
+          title: 'Molecular simulation &amp;amp; quantum dynamics',
+          description: "How do we follow reactions accurately while keeping their surroundings in the picture?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/molecular_simulation.html";
+            },},{id: "projects-surfaces-amp-energy-materials",
+          title: 'Surfaces &amp;amp; energy materials',
+          description: "How do atomic interactions control motion on a surface and a material’s response to light?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/surfaces_materials.html";
+            },},{id: "projects-sustainable-polymers",
+          title: 'Sustainable polymers',
+          description: "How can we connect a polymer’s chemistry to its useful properties and its fate after use?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sustainable_polymers.html";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -104,13 +119,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0000-0002-6986-5526", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',

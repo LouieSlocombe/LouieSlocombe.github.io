@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="360" viewBox="0 0 720 360">
+  <title>Research: simulation</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect x="0" y="0" width="720" height="360" fill="#f3f6f8"/>
+    <text transform="matrix(1 0 0 1 197 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Molecular environment</tspan></text>
+    <text transform="matrix(1 0 0 1 550 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Reaction path</tspan></text>
+    <circle cx="322" cy="184" r="7" fill="#dae5eb"/>
+    <line x1="322" y1="184" x2="322" y2="200" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="312.485" cy="220.355" r="7" fill="#dae5eb"/>
+    <line x1="312.485" y1="220.355" x2="318.608" y2="235.137" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="285.388" cy="251.175" r="7" fill="#dae5eb"/>
+    <line x1="285.388" y1="251.175" x2="296.702" y2="262.489" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="244.835" cy="271.769" r="7" fill="#dae5eb"/>
+    <line x1="244.835" y1="271.769" x2="259.618" y2="277.891" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="197" cy="279" r="7" fill="#dae5eb"/>
+    <line x1="197" y1="279" x2="213" y2="279" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="149.165" cy="271.769" r="7" fill="#dae5eb"/>
+    <line x1="149.165" y1="271.769" x2="163.947" y2="265.646" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="108.612" cy="251.175" r="7" fill="#dae5eb"/>
+    <line x1="108.612" y1="251.175" x2="119.925" y2="239.861" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="81.515" cy="220.355" r="7" fill="#dae5eb"/>
+    <line x1="81.515" y1="220.355" x2="87.638" y2="205.573" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="72" cy="184" r="7" fill="#dae5eb"/>
+    <line x1="72" y1="184" x2="72" y2="168" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="81.515" cy="147.645" r="7" fill="#dae5eb"/>
+    <line x1="81.515" y1="147.645" x2="75.392" y2="132.863" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="108.612" cy="116.825" r="7" fill="#dae5eb"/>
+    <line x1="108.612" y1="116.825" x2="97.298" y2="105.511" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="149.165" cy="96.231" r="7" fill="#dae5eb"/>
+    <line x1="149.165" y1="96.231" x2="134.382" y2="90.109" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="197" cy="89" r="7" fill="#dae5eb"/>
+    <line x1="197" y1="89" x2="181" y2="89" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="244.835" cy="96.231" r="7" fill="#dae5eb"/>
+    <line x1="244.835" y1="96.231" x2="230.053" y2="102.354" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="285.388" cy="116.825" r="7" fill="#dae5eb"/>
+    <line x1="285.388" y1="116.825" x2="274.075" y2="128.139" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="312.485" cy="147.645" r="7" fill="#dae5eb"/>
+    <line x1="312.485" y1="147.645" x2="306.362" y2="162.427" fill="none" stroke="#dae5eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="197" cy="184" r="63" fill="#e3eeed" stroke="#16746e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="166,191 190,164 221,185" fill="none" stroke="#16746e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="166" cy="191" r="8" fill="#16746e"/>
+    <circle cx="190" cy="164" r="8" fill="#16746e"/>
+    <circle cx="221" cy="185" r="8" fill="#16746e"/>
+    <circle cx="190" cy="164" r="10" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 197 315)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Detailed reacting region</tspan></text>
+    <g>
+      <g>
+        <path d="M344 182.5 L388.7 182.5 C389.528 182.5 390.2 183.172 390.2 184 C390.2 184.828 389.528 185.5 388.7 185.5 L344 185.5 C343.172 185.5 342.5 184.828 342.5 184 C342.5 183.172 343.172 182.5 344 182.5" fill="#647687"/>
+        <path d="M392 184 L385.4 187.3 L385.4 180.7 Z" fill="#647687"/>
+      </g>
+    </g>
+    <polyline points="418,218 420.5,217.909 423,217.637 425.5,217.185 428,216.555 430.5,215.749 433,214.77 435.5,213.622 438,212.31 440.5,210.839 443,209.215 445.5,207.444 448,205.533 450.5,203.489 453,201.322 455.5,199.038 458,196.648 460.5,194.161 463,191.586 465.5,188.934 468,186.215 470.5,183.44 473,180.62 475.5,177.765 478,174.888 480.5,172 483,169.112 485.5,166.235 488,163.38 490.5,160.56 493,157.785 495.5,155.066 498,152.414 500.5,149.839 503,147.352 505.5,144.962 508,142.678 510.5,140.511 513,138.467 515.5,136.556 518,134.785 520.5,133.161 523,131.69 525.5,130.378 528,129.23 530.5,128.251 533,127.445 535.5,126.815 538,126.363 540.5,126.091 543,126 545.5,126.091 548,126.363 550.5,126.815 553,127.445 555.5,128.251 558,129.23 560.5,130.378 563,131.69 565.5,133.161 568,134.785 570.5,136.556 573,138.467 575.5,140.511 578,142.678 580.5,144.962 583,147.352 585.5,149.839 588,152.414 590.5,155.066 593,157.785 595.5,160.56 598,163.38 600.5,166.235 603,169.112 605.5,172 608,174.888 610.5,177.765 613,180.62 615.5,183.44 618,186.215 620.5,188.934 623,191.586 625.5,194.161 628,196.648 630.5,199.038 633,201.322 635.5,203.489 638,205.533 640.5,207.444 643,209.215 645.5,210.839 648,212.31 650.5,213.622 653,214.77 655.5,215.749 658,216.555 660.5,217.185 663,217.637 665.5,217.909 668,218" fill="none" stroke="#7453a4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="418" cy="218" r="10" fill="#16746e"/>
+    <circle cx="668" cy="218" r="10" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 428 260)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Before</tspan></text>
+    <text transform="matrix(1 0 0 1 654 260)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">After</tspan></text>
+    <text transform="matrix(1 0 0 1 550 315)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Connecting arrangements</tspan></text>
+  </g>
+</svg>

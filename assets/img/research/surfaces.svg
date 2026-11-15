@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="360" viewBox="0 0 720 360">
+  <title>Research: surfaces</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect x="0" y="0" width="720" height="360" fill="#f3f6f8"/>
+    <text transform="matrix(1 0 0 1 180 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Motion at interfaces</tspan></text>
+    <text transform="matrix(1 0 0 1 548 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Light and materials</tspan></text>
+    <polygon points="100,195 86,211.454 58,211.454 44,195 58,178.546 86,178.546" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="142,211.454 128,227.909 100,227.909 86,211.454 100,195 128,195" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="184,195 170,211.454 142,211.454 128,195 142,178.546 170,178.546" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="226,211.454 212,227.909 184,227.909 170,211.454 184,195 212,195" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="268,195 254,211.454 226,211.454 212,195 226,178.546 254,178.546" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="100,227.909 86,244.363 58,244.363 44,227.909 58,211.454 86,211.454" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="142,244.363 128,260.818 100,260.818 86,244.363 100,227.909 128,227.909" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="184,227.909 170,244.363 142,244.363 128,227.909 142,211.454 170,211.454" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="226,244.363 212,260.818 184,260.818 170,244.363 184,227.909 212,227.909" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="268,227.909 254,244.363 226,244.363 212,227.909 226,211.454 254,211.454" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="100,260.818 86,277.272 58,277.272 44,260.818 58,244.363 86,244.363" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="142,277.272 128,293.727 100,293.727 86,277.272 100,260.818 128,260.818" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="184,260.818 170,277.272 142,277.272 128,260.818 142,244.363 170,244.363" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="226,277.272 212,293.727 184,293.727 170,277.272 184,260.818 212,260.818" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="268,260.818 254,277.272 226,277.272 212,260.818 226,244.363 254,244.363" fill="none" stroke="#647687" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="150" y1="131" x2="132" y2="111" fill="none" stroke="#16746e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="150" y1="131" x2="172" y2="113" fill="none" stroke="#16746e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="150" cy="131" r="14" fill="#7453a4"/>
+    <circle cx="132" cy="111" r="8" fill="#16746e"/>
+    <circle cx="172" cy="113" r="8" fill="#16746e"/>
+    <g>
+      <g>
+        <path d="M198 141 L261.6 141 C262.705 141 263.6 141.895 263.6 143 C263.6 144.105 262.705 145 261.6 145 L198 145 C196.895 145 196 144.105 196 143 C196 141.895 196.895 141 198 141" fill="#16746e"/>
+        <path d="M266 143 L257.2 147.4 L257.2 138.6 Z" fill="#16746e"/>
+      </g>
+    </g>
+    <polyline points="465,108 453,132 469,147 455,176" fill="none" stroke="#b16b2e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <g>
+        <path d="M456.812 176.846 L451.673 187.859 C451.206 188.86 450.016 189.292 449.015 188.825 C448.014 188.358 447.581 187.168 448.048 186.167 L453.188 175.154 C453.655 174.153 454.845 173.721 455.846 174.188 C456.847 174.655 457.279 175.845 456.812 176.846" fill="#b16b2e"/>
+        <path d="M448 191 L447.734 181.165 L455.709 184.886 Z" fill="#b16b2e"/>
+      </g>
+    </g>
+    <polyline points="540,108 528,132 544,147 530,176" fill="none" stroke="#b16b2e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <g>
+        <path d="M531.812 176.846 L526.673 187.859 C526.206 188.86 525.016 189.292 524.015 188.825 C523.014 188.358 522.581 187.168 523.048 186.167 L528.188 175.154 C528.655 174.153 529.845 173.721 530.846 174.188 C531.847 174.655 532.279 175.845 531.812 176.846" fill="#b16b2e"/>
+        <path d="M523 191 L522.734 181.165 L530.709 184.886 Z" fill="#b16b2e"/>
+      </g>
+    </g>
+    <polyline points="615,108 603,132 619,147 605,176" fill="none" stroke="#b16b2e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <g>
+        <path d="M606.812 176.846 L601.673 187.859 C601.206 188.86 600.016 189.292 599.015 188.825 C598.014 188.358 597.581 187.168 598.048 186.167 L603.188 175.154 C603.655 174.153 604.845 173.721 605.846 174.188 C606.847 174.655 607.279 175.845 606.812 176.846" fill="#b16b2e"/>
+        <path d="M598 191 L597.734 181.165 L605.709 184.886 Z" fill="#b16b2e"/>
+      </g>
+    </g>
+    <rect x="435" y="211" width="230" height="18" fill="#16746e"/>
+    <rect x="435" y="233" width="230" height="18" fill="#7453a4"/>
+    <rect x="435" y="255" width="230" height="18" fill="#647687"/>
+    <text transform="matrix(1 0 0 1 180 323)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Water on a surface</tspan></text>
+    <text transform="matrix(1 0 0 1 548 323)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Solar absorbers</tspan></text>
+  </g>
+</svg>

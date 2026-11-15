@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="360" viewBox="0 0 720 360">
+  <title>Research: polymers</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect x="0" y="0" width="720" height="360" fill="#f3f6f8"/>
+    <text transform="matrix(1 0 0 1 122 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Chemistry</tspan></text>
+    <text transform="matrix(1 0 0 1 360 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Material</tspan></text>
+    <text transform="matrix(1 0 0 1 598 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Breakdown</tspan></text>
+    <polyline points="42,202 68,158 94,202 120,158 146,202 172,158 198,202" fill="none" stroke="#16746e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="42" cy="202" r="8" fill="#16746e"/>
+    <circle cx="68" cy="158" r="8" fill="#16746e"/>
+    <circle cx="94" cy="202" r="8" fill="#16746e"/>
+    <circle cx="120" cy="158" r="8" fill="#16746e"/>
+    <circle cx="146" cy="202" r="8" fill="#16746e"/>
+    <circle cx="172" cy="158" r="8" fill="#16746e"/>
+    <circle cx="198" cy="202" r="8" fill="#16746e"/>
+    <g>
+      <g>
+        <path d="M231 178.5 L253.7 178.5 C254.528 178.5 255.2 179.172 255.2 180 C255.2 180.828 254.528 181.5 253.7 181.5 L231 181.5 C230.172 181.5 229.5 180.828 229.5 180 C229.5 179.172 230.172 178.5 231 178.5" fill="#647687"/>
+        <path d="M257 180 L250.4 183.3 L250.4 176.7 Z" fill="#647687"/>
+      </g>
+    </g>
+    <rect x="280" y="105" width="160" height="150" fill="none" stroke="#dae5eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="293,125 305,133.608 317,136.995 329,133.106 341,124.3 353,115.918 365,113.046 377,117.425 389,126.399 401,134.524 413,136.872 425,132.019" fill="none" stroke="#16746e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="293,169.098 305,170.686 317,165.186 329,155.934 341,148.541 353,147.493 365,153.425 377,162.738 389,169.784 401,170.289 413,163.945 425,154.602" fill="none" stroke="#7453a4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="293,203.912 305,197.02 317,187.69 329,181.581 341,182.399 353,189.647 365,198.929 377,204.615 389,203.255 401,195.675 413,186.472 425,181.229" fill="none" stroke="#b16b2e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="293,228.693 305,219.658 317,215.076 329,217.727 341,226.003 353,234.884 365,238.983 377,235.813 389,227.297 401,218.602 413,215 425,218.678" fill="none" stroke="#16746e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <g>
+        <path d="M464 178.5 L486.7 178.5 C487.528 178.5 488.2 179.172 488.2 180 C488.2 180.828 487.528 181.5 486.7 181.5 L464 181.5 C463.172 181.5 462.5 180.828 462.5 180 C462.5 179.172 463.172 178.5 464 178.5" fill="#647687"/>
+        <path d="M490 180 L483.4 183.3 L483.4 176.7 Z" fill="#647687"/>
+      </g>
+    </g>
+    <polyline points="530,145 552,170 578,150" fill="none" stroke="#16746e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="530" cy="145" r="8" fill="#16746e"/>
+    <circle cx="552" cy="170" r="8" fill="#16746e"/>
+    <circle cx="578" cy="150" r="8" fill="#16746e"/>
+    <polyline points="603,205 630,179 655,200" fill="none" stroke="#7453a4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="603" cy="205" r="8" fill="#7453a4"/>
+    <circle cx="630" cy="179" r="8" fill="#7453a4"/>
+    <circle cx="655" cy="200" r="8" fill="#7453a4"/>
+    <line x1="549" y1="224" x2="576" y2="240" fill="none" stroke="#b16b2e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="549" cy="224" r="8" fill="#b16b2e"/>
+    <circle cx="576" cy="240" r="8" fill="#b16b2e"/>
+    <text transform="matrix(1 0 0 1 122 307)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Repeat units</tspan></text>
+    <text transform="matrix(1 0 0 1 360 307)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Many chains</tspan></text>
+    <text transform="matrix(1 0 0 1 598 307)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Smaller fragments</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="360" viewBox="0 0 720 360">
+  <title>Research: biochemistry</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect x="0" y="0" width="720" height="360" fill="#f3f6f8"/>
+    <text transform="matrix(1 0 0 1 180 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Reaction networks</tspan></text>
+    <text transform="matrix(1 0 0 1 530 55)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="25" font-weight="bold" fill="#253c50" text-anchor="middle"><tspan x="0" y="0">Protein structures</tspan></text>
+    <line x1="67" y1="190" x2="125" y2="128" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="67" y1="190" x2="143" y2="230" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="125" y1="128" x2="204" y2="181" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="143" y1="230" x2="204" y2="181" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="204" y1="181" x2="238" y2="105" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="204" y1="181" x2="278" y2="241" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="238" y1="105" x2="304" y2="158" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="278" y1="241" x2="304" y2="158" fill="none" stroke="#647687" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="67" cy="190" r="13" fill="#16746e"/>
+    <circle cx="125" cy="128" r="13" fill="#7453a4"/>
+    <circle cx="143" cy="230" r="13" fill="#b16b2e"/>
+    <circle cx="204" cy="181" r="13" fill="#16746e"/>
+    <circle cx="238" cy="105" r="13" fill="#7453a4"/>
+    <circle cx="278" cy="241" r="13" fill="#b16b2e"/>
+    <circle cx="304" cy="158" r="13" fill="#16746e"/>
+    <polyline points="426,131 453,115 480,131 507,115 534,131 561,115 588,131 615,115 642,131" fill="none" stroke="#16746e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="426" cy="131" r="8" fill="#16746e"/>
+    <circle cx="453" cy="115" r="8" fill="#16746e"/>
+    <circle cx="480" cy="131" r="8" fill="#16746e"/>
+    <circle cx="507" cy="115" r="8" fill="#16746e"/>
+    <circle cx="534" cy="131" r="8" fill="#16746e"/>
+    <circle cx="561" cy="115" r="8" fill="#16746e"/>
+    <circle cx="588" cy="131" r="8" fill="#16746e"/>
+    <circle cx="615" cy="115" r="8" fill="#16746e"/>
+    <circle cx="642" cy="131" r="8" fill="#16746e"/>
+    <g>
+      <g>
+        <path d="M535.5 148 L535.5 181.7 C535.5 182.528 534.828 183.2 534 183.2 C533.172 183.2 532.5 182.528 532.5 181.7 L532.5 148 C532.5 147.172 533.172 146.5 534 146.5 C534.828 146.5 535.5 147.172 535.5 148" fill="#647687"/>
+        <path d="M534 185 L530.7 178.4 L537.3 178.4 Z" fill="#647687"/>
+      </g>
+    </g>
+    <polyline points="535,287 540.749,286.83 546.428,286.321 551.971,285.478 557.312,284.308 562.388,282.819 567.14,281.024 571.514,278.937 575.463,276.576 578.943,273.959 581.919,271.108 584.365,268.045 586.26,264.796 587.592,261.386 588.357,257.844 588.561,254.198 588.215,250.478 587.34,246.713 585.965,242.934 584.123,239.172 581.857,235.458 579.213,231.82 576.244,228.289 573.004,224.893 569.554,221.661 565.954,218.617 562.268,215.786 558.557,213.192 554.885,210.856 551.311,208.796 547.892,207.029 544.682,205.569 541.731,204.429 539.082,203.617 536.773,203.14 534.835,203.001 533.294,203.203 532.165,203.743 531.457,204.617 531.173,205.818 531.306,207.336 531.842,209.159 532.759,211.272 534.029,213.658 535.617,216.298 537.482,219.17 539.578,222.251 541.855,225.516 544.258,228.939 546.731,232.492 549.214,236.147 551.649,239.872 553.977,243.64 556.139,247.418 558.081,251.177 559.749,254.886 561.095,258.515 562.076,262.034 562.655,265.416 562.799,268.632 562.483,271.657 561.691,274.466 560.414,277.037 558.648,279.348 556.401,281.382 553.686,283.121 550.526,284.551 546.95,285.661 542.995,286.442 538.704,286.888 534.125,286.994 529.314,286.761 524.328,286.189 519.23,285.284 514.086,284.053 508.96,282.506 503.921,280.656 499.035,278.516 494.367,276.106 489.98,273.443 485.933,270.551 482.282,267.451 479.076,264.17 476.359,260.734 474.169,257.17 472.535,253.508 471.481,249.777 471.021,246.007 471.162,242.229 471.9,238.474 473.227,234.771 475.124,231.151 477.565,227.644 480.515,224.276 483.935,221.077 487.777,218.071 491.99,215.283 496.516,212.736 501.294,210.45 506.26,208.443 511.347,206.733 516.49,205.332 521.621,204.252 526.674,203.502 531.586,203.088 536.296,203.013 540.747,203.278 544.887,203.881 548.67,204.817 552.056,206.078 555.011,207.654 557.51,209.532 559.533,211.698 561.071,214.133 562.121,216.817 562.689,219.73 562.787,222.848 562.437,226.145 561.666,229.594 560.509,233.168" fill="none" stroke="#7453a4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text transform="matrix(1 0 0 1 180 320)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Connected chemistry</tspan></text>
+    <text transform="matrix(1 0 0 1 530 320)" x="0" y="0" xml:space="preserve" font-family="&apos;Liberation Sans&apos;, sans-serif" font-size="22" fill="#647687" text-anchor="middle"><tspan x="0" y="0">Sequence and shape</tspan></text>
+  </g>
+</svg>
