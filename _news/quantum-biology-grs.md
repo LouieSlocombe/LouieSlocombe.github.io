@@ -6,5 +6,5 @@ inline: true
 ---
 
 I co-chaired the Quantum Biology Gordon Research Symposium in Tuscany with Jana Vuckovic, bringing together 49 early-career
-researchers. I raised $22,000 to support attendance by underrepresented and minority researchers, alongside helping to shape
+researchers. I raised $22,000 to support attendance by underrepresented and minority researchers and helped to shape
 the programme. [More about my scientific community work]({{ '/cv/#service' | relative_url }}).

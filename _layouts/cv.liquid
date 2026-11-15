@@ -13,7 +13,9 @@ layout: default
     <p class="cv-summary">{{ resume.basics.summary | escape }}</p>
     <ul class="cv-profile-links" aria-label="Research profiles">
       {% for profile in resume.basics.profiles %}
-        <li><a href="{{ profile.url | escape }}">{{ profile.network | escape }}</a></li>
+        <li>
+          <a href="{{ profile.url | escape }}">{{ profile.network | escape }}</a>
+        </li>
       {% endfor %}
     </ul>
     <dl class="cv-highlights">
@@ -32,7 +34,9 @@ layout: default
       <p class="cv-eyebrow">On this page</p>
       <ul>
         {% for section in site.data.cv_sections %}
-          <li><a href="#{{ section.key }}">{{ section.nav | escape }}</a></li>
+          <li>
+            <a href="#{{ section.key }}">{{ section.nav | escape }}</a>
+          </li>
         {% endfor %}
       </ul>
       <a class="cv-back-to-top" href="#cv-top">Back to top ↑</a>
@@ -51,7 +55,10 @@ layout: default
               {% include cv/groups.liquid groups=section_entries %}
             {% when 'bibliography' %}
               {% if section.key == 'publications' %}
-                <p class="cv-section-intro">Research across quantum biology, molecular simulation and chemical complexity. <a href="{{ '/publications/' | relative_url }}">Search the publication list →</a></p>
+                <p class="cv-section-intro">
+                  Research across quantum biology, molecular simulation, and chemical complexity.
+                  <a href="{{ '/publications/' | relative_url }}">Search the publication list →</a>
+                </p>
                 <h3 class="cv-group-title">Journal articles & accepted papers</h3>
                 {% bibliography --template cv_bib --group_by none --query @*[cv_group=published] %}
                 <h3 class="cv-group-title">Conference contributions</h3>

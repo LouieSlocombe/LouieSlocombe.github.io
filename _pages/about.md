@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Nuclear Quantum Effects · Molecular Simulations · Machine Learning · Computational Chemistry
 
@@ -22,9 +22,9 @@ announcements:
   limit: 6 # leave blank to include all the news in the `_news` folder
 ---
 
-I’m a computational physicist and theoretical chemist, and a Group Leader Research Fellow in the
+I’m a computational physicist, theoretical chemist, and Group Leader Research Fellow in the
 Scanlon Materials Theory Group at the University of Birmingham. I use computational chemistry,
-physics and machine learning to understand molecular systems. My current research focuses on
+physics, and machine learning to understand molecular systems. My current research focuses on
 AI and machine learning for sustainable polymers, particularly predicting biodegradability.
 
 ## Research background
@@ -33,11 +33,11 @@ I completed my PhD in Quantum Biology at the University of Surrey in 2022, super
 Marco Sacchi and Jim Al-Khalili. My thesis, _Quantum Effects in DNA Replication Fidelity_,
 examined proton transfer and nuclear quantum effects in DNA. I then continued at Surrey as a
 Research Fellow in Theoretical Quantum Biology, investigating open quantum systems, DNA damage,
-ion-channel transport and catalytic surfaces.
+ion-channel transport, and catalytic surfaces.
 
 From 2024 to 2026, I was a Research Lab Manager and Postdoctoral Researcher in Sara Walker’s
 group at Arizona State University’s Beyond Center. My work combined machine learning, chemical
-complexity and graph theory to explore the origins of biochemistry, chemical space and protein
+complexity, and graph theory to explore the origins of biochemistry, chemical space, and protein
 folding. Alongside research, I managed day-to-day lab activities, trained and mentored researchers,
 and contributed substantially to a funded NASA ROSES grant.
 
@@ -46,11 +46,11 @@ chemistry and AI/ML for sustainable polymers.
 
 ## Teaching & scientific community
 
-Teaching, mentoring and community service are central to my work. I have managed or supervised
+Teaching, mentoring, and community service are central to my work. I have managed or supervised
 28 scientists, taught scientific computing and computational chemistry, and helped develop
 teaching on generative AI. As co-chair of the 2025 Quantum Biology Gordon Research Symposium,
 I raised $22,000 to support attendance by underrepresented and minority early-career researchers.
 
 Explore my [full CV]({{ '/cv/' | relative_url }}),
-[publications]({{ '/publications/' | relative_url }}) and
+[publications]({{ '/publications/' | relative_url }}), and
 [teaching and mentoring experience]({{ '/teaching/' | relative_url }}).

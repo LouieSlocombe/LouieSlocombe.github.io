@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: code
-description: Open-source tools for molecules, materials and the questions in between.
+title: Code
+description: Open-source tools for molecules, materials, and the questions in between.
 nav: true
 nav_order: 4
 ---
@@ -17,8 +17,8 @@ nav_order: 4
   <section class="code-intro" aria-labelledby="code-intro-title">
     <p class="code-eyebrow">From a research question to a working calculation</p>
     <h2 id="code-intro-title">Build a molecule. Follow a reaction. Explore what emerges.</h2>
-    <p class="code-lead">My research moves between quantum physics, chemistry and machine learning. These repositories are the tools, experiments and shared building blocks that make that work possible—from proton tunnelling in DNA to the behaviour of polymer materials.</p>
-    <p>A selection of my own software and collaborative projects I have substantially developed. Within each theme, projects are ordered roughly by research impact and the scale of my contribution, with the most substantial work first. Each entry explains what the code does and takes you straight to its source.</p>
+    <p class="code-lead">My research moves between quantum physics, chemistry, and machine learning. These repositories are the tools, experiments, and shared building blocks that make that work possible — from proton tunnelling in DNA to the behaviour of polymer materials.</p>
+    <p>This catalogue features my own software and collaborative projects to which I have made substantial contributions. Within each theme, projects are ordered roughly by research impact and the scale of my contribution, with the most substantial work first. Each entry explains what the code does and takes you straight to its source.</p>
     <div class="code-intro-links">
       <a class="code-github-link" href="https://github.com/{{ catalogue.github_user }}"><i class="fa-brands fa-github" aria-hidden="true"></i> Explore my GitHub <span aria-hidden="true">↗</span></a>
       <span>{{ project_count }} repositories · {{ catalogue.groups.size }} themes</span>
@@ -26,9 +26,9 @@ nav_order: 4
   </section>
 
   <nav class="code-starts" aria-label="Suggested starting points">
-    <a href="#materials"><span class="code-eyebrow">Build & measure</span><strong>From monomers to materials</strong><span>Polymer simulations, amorphous structures and material properties <span aria-hidden="true">→</span></span></a>
-    <a href="#quantum"><span class="code-eyebrow">Simulate & understand</span><strong>Beyond classical nuclei</strong><span>Reaction pathways, tunnelling and quantum molecular dynamics <span aria-hidden="true">→</span></span></a>
-    <a href="#assembly"><span class="code-eyebrow">Count & discover</span><strong>The structure of complexity</strong><span>Assembly pathways, reusable fragments and biochemical networks <span aria-hidden="true">→</span></span></a>
+    <a href="#materials"><span class="code-eyebrow">Build & measure</span><strong>From monomers to materials</strong><span>Polymer simulations, amorphous structures, and material properties <span aria-hidden="true">→</span></span></a>
+    <a href="#quantum"><span class="code-eyebrow">Simulate & understand</span><strong>Beyond classical nuclei</strong><span>Reaction pathways, tunnelling, and quantum molecular dynamics <span aria-hidden="true">→</span></span></a>
+    <a href="#assembly"><span class="code-eyebrow">Count & discover</span><strong>The structure of complexity</strong><span>Assembly pathways, reusable fragments, and biochemical networks <span aria-hidden="true">→</span></span></a>
   </nav>
 
   <div class="code-explore" id="explore-code">
@@ -41,7 +41,7 @@ nav_order: 4
     <div class="code-search" hidden>
       <label for="code-search-input">Find a repository</label>
       <div class="code-search-field">
-        <input id="code-search-input" type="search" placeholder="Try DNA, OpenMM, Julia or a project name…" aria-describedby="code-search-status" autocomplete="off">
+        <input id="code-search-input" type="search" placeholder="Try DNA, OpenMM, Julia, or a project name…" aria-describedby="code-search-status" autocomplete="off">
         <button type="button" id="code-search-clear">Clear</button>
       </div>
       <p id="code-search-status" class="code-search-status" role="status" aria-live="polite" aria-atomic="true">Showing all {{ project_count }} repositories.</p>
@@ -82,8 +82,8 @@ nav_order: 4
 
   <div class="code-footer">
     <h2>The science behind the software</h2>
-    <p>For the questions that motivated these tools, explore my <a href="{{ '/projects/' | relative_url }}">research</a> and <a href="{{ '/publications/' | relative_url }}">publications</a>. If you build on a project, its README is the best starting point for installation, examples and citation guidance.</p>
-    <p class="code-review-note">Selected public projects, reviewed {{ catalogue.reviewed }}. Focuses on original work and substantial collaborations, with templates and experiments labelled individually.</p>
+    <p>For the questions that motivated these tools, explore my <a href="{{ '/projects/' | relative_url }}">research</a> and <a href="{{ '/publications/' | relative_url }}">publications</a>. If you build on a project, its README is the best starting point for installation, examples, and citation guidance.</p>
+    <p class="code-review-note">Selected public projects, reviewed {{ catalogue.reviewed }}. The catalogue focuses on original work and substantial collaborations, with templates and experiments labelled individually.</p>
   </div>
 </div>
 

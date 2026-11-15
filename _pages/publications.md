@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Research in quantum biology, molecular simulation, chemical complexity and machine learning.
+title: Publications
+description: Research in quantum biology, molecular simulation, chemical complexity, and machine learning.
 nav: true
 nav_order: 2
 ---
 
-Journal articles, conference contributions, preprints and manuscripts. See my
+Journal articles, conference contributions, preprints, and manuscripts. See my
 [Google Scholar profile](https://scholar.google.com/citations?user=JISRQewAAAAJ)
 for citation information and my [CV]({{ '/cv/' | relative_url }}) for the wider research record.
 

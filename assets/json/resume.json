@@ -3,7 +3,7 @@
     "name": "Louie Slocombe",
     "email": "l.slocombe@bham.ac.uk",
     "url": "https://research.birmingham.ac.uk/en/persons/louie-slocombe/",
-    "summary": "I use computational chemistry, physics and machine learning to understand molecular systems, from quantum effects in DNA to the origins of biochemistry. At the University of Birmingham, my research focuses on AI and machine learning for sustainable polymers, with a particular interest in predicting biodegradability.",
+    "summary": "I use computational chemistry, physics, and machine learning to understand molecular systems, from quantum effects in DNA to the origins of biochemistry. At the University of Birmingham, my research focuses on AI and machine learning for sustainable polymers, with a particular interest in predicting biodegradability.",
     "label": "Computational physicist & theoretical chemist",
     "profiles": [
       {
@@ -42,13 +42,13 @@
       "url": "https://emergence.asu.edu/",
       "startDate": "2024-04",
       "endDate": "2026-04",
-      "summary": "Machine learning, chemical complexity and graph theory applied to the origins of biochemistry, chemical space exploration and protein folding. Supervisor: Sara Walker.",
+      "summary": "Machine learning, chemical complexity, and graph theory applied to the origins of biochemistry, chemical space exploration, and protein folding. Supervisor: Sara Walker.",
       "highlights": [
-        "Developed physics- and chemistry-informed models and databases using PyTorch, scikit-learn and ESMFold, alongside molecular dynamics, quantum chemistry and machine-learning interatomic potentials for polymers, proteins and DNA/RNA.",
-        "Made a substantial contribution to a funded $1.5 million NASA ROSES grant: developed the Science and Technical Management section, prepared Facilities & Equipment and Open Science Data Management Plan sections, and drafted the budget. Planned and delivered two-thirds of the grant workload.",
-        "Mentored, supervised and trained four postdocs, one staff scientist, 12 graduate students and four undergraduates, and supported new group members through onboarding.",
-        "Managed day-to-day research operations, identified training needs, and led weekly interdisciplinary meetings, workshops, research seminars and a journal club.",
-        "Organised two two-day annual lab retreats, including career development and team-building activities. Taught and guest lectured in the School of Earth and Space Exploration and the School of Complex Adaptive Systems."
+        "Developed physics- and chemistry-informed models and databases using PyTorch, scikit-learn, and ESMFold, alongside molecular dynamics, quantum chemistry, and machine-learning interatomic potentials for polymers, proteins, and DNA/RNA.",
+        "Made a substantial contribution to a funded $1.5 million NASA ROSES grant: developed the Science and Technical Management section, prepared the Facilities & Equipment and Open Science Data Management Plan sections, and drafted the budget. Planned and delivered two-thirds of the grant workload.",
+        "Mentored, supervised, and trained four postdocs, one staff scientist, 12 graduate students, and four undergraduates, and supported new group members through onboarding.",
+        "Managed day-to-day research operations, identified training needs, and led weekly interdisciplinary meetings, workshops, research seminars, and a journal club.",
+        "Organised two two-day annual lab retreats, including career development and team-building activities. Taught and gave guest lectures in the School of Earth and Space Exploration and the School of Complex Adaptive Systems."
       ],
       "department": "Beyond Center for Fundamental Concepts in Science",
       "location": "Tempe, Arizona, USA"
@@ -59,11 +59,11 @@
       "url": "https://www.surrey.ac.uk/arrow-of-time",
       "startDate": "2022-01",
       "endDate": "2024-04",
-      "summary": "Open quantum systems, non-Born–Oppenheimer effects, DNA damage, ion-channel transport, catalytic surfaces and material systems. Supervisor: Marco Sacchi.",
+      "summary": "Open quantum systems, non-Born–Oppenheimer effects, DNA damage, ion-channel transport, catalytic surfaces, and material systems. Supervisor: Marco Sacchi.",
       "highlights": [
         "Mentored and trained three graduate and four undergraduate students. As primary supervisor for two MPhys research students, supported projects that each produced a paper and earned a grade in the top 5% of the cohort.",
-        "Trained researchers in programming, HPC, ab initio methods, DFT, machine-learning potentials, molecular dynamics, QM/MM, minimum-energy paths, enhanced sampling and free-energy calculations.",
-        "Taught and guest lectured in chemistry and physics, and delivered outreach talks and mentoring for aspiring scientists."
+        "Trained researchers in programming, HPC, ab initio methods, DFT, machine-learning potentials, molecular dynamics, QM/MM, minimum-energy paths, enhanced sampling, and free-energy calculations.",
+        "Taught and gave guest lectures in chemistry and physics, and delivered outreach talks and mentoring for aspiring scientists."
       ],
       "department": "Department of Chemistry",
       "location": "Guildford, UK"
@@ -76,21 +76,21 @@
       "endDate": "2022-01",
       "summary": "Computational chemistry and physics applied to biology, focusing on proton transfer and DNA replication fidelity.",
       "highlights": [
-        "Performed ab initio quantum chemistry calculations using national computing facilities including ARCHER, ARCHER2 and DIRAC.",
-        "Worked as a teaching assistant and laboratory demonstrator, teaching, grading and training undergraduates.",
+        "Performed ab initio quantum chemistry calculations using national computing facilities including ARCHER, ARCHER2, and DIRAC.",
+        "Worked as a teaching assistant and laboratory demonstrator, teaching and training undergraduates and marking their work.",
         "Created a cross-faculty initiative to improve computing support and code literacy for PhD students while serving as a physics and chemistry student representative.",
-        "Contributed to science outreach through demonstrations, talks and mentoring schemes."
+        "Contributed to science outreach through demonstrations, talks, and mentoring schemes."
       ],
       "department": "Quantum Biology Doctoral Training Centre",
       "location": "Guildford, UK"
     },
     {
       "name": "University of Wollongong",
-      "position": "Masters Research Student, Student Demonstrator, Teaching Assistant, and Outreach Volunteer",
+      "position": "Master’s Research Student, Student Demonstrator, Teaching Assistant, and Outreach Volunteer",
       "url": "https://www.uow.edu.au/research-and-innovation/our-research/research-institutes-and-facilities/australian-institute-for-innovative-materials/isem/introduction/",
       "startDate": "2017-02",
       "endDate": "2017-12",
-      "summary": "Ultrafast terahertz spectroscopy and imaging, computational signal extraction and specialist electronics.",
+      "summary": "Ultrafast terahertz spectroscopy and imaging, computational signal extraction, and specialist electronics.",
       "highlights": [
         "Developed hardware control and automation for robotic systems.",
         "Published a first-author paper from undergraduate research.",
@@ -144,7 +144,7 @@
       "title": "Best Poster",
       "date": "2023",
       "awarder": "Multiscale Modelling Conference, Manchester, UK",
-      "summary": "PcrA Helicase Modifies G-C Tautomerism. Awarded to the poster by Winokan, M., Slocombe, L., Al-Khalili, J. and Sacchi, M."
+      "summary": "PcrA Helicase Modifies G-C Tautomerism. Awarded to the poster by Winokan, M., Slocombe, L., Al-Khalili, J., and Sacchi, M."
     },
     {
       "title": "Editors' Highlights",
@@ -159,7 +159,7 @@
     {
       "title": "Media and Press Coverage",
       "awarder": "BBC, Scientific American, and science YouTube communicators",
-      "summary": "Research featured by the BBC, Scientific American and science communicators on YouTube, alongside press interviews and public outreach talks. Several publications reached the top 5% of research outputs tracked by Altmetric, as recorded in the CV."
+      "summary": "Research featured by the BBC, Scientific American, and science communicators on YouTube, alongside press interviews and public outreach talks. Several publications reached the top 5% of research outputs tracked by Altmetric, as recorded in the CV."
     }
   ],
   "skills": [
@@ -176,23 +176,11 @@
     },
     {
       "name": "Machine Learning",
-      "keywords": [
-        "PyTorch",
-        "scikit-learn",
-        "ESMFold",
-        "MACE (machine-learning interatomic potentials)"
-      ]
+      "keywords": ["PyTorch", "scikit-learn", "ESMFold", "MACE (machine-learning interatomic potentials)"]
     },
     {
       "name": "Programming & HPC",
-      "keywords": [
-        "Python",
-        "Fortran",
-        "Julia",
-        "MATLAB",
-        "Bash",
-        "ARCHER/ARCHER2/DIRAC national HPC clusters"
-      ]
+      "keywords": ["Python", "Fortran", "Julia", "MATLAB", "Bash", "ARCHER/ARCHER2/DIRAC national HPC clusters"]
     },
     {
       "name": "Leadership & Grant Writing",
@@ -223,28 +211,24 @@
       "studyType": "PhD in Quantum Biology",
       "startDate": "2018",
       "endDate": "2022",
-      "highlights": [
-        "Supervisors: Marco Sacchi and Jim Al-Khalili."
-      ]
+      "highlights": ["Supervisors: Marco Sacchi and Jim Al-Khalili."]
     },
     {
       "institution": "Department of Physics, University of Surrey",
       "location": "Guildford, UK",
       "url": "https://www.surrey.ac.uk/",
-      "area": "First Class Honours. Dissertation: Developing Neon Plasma Lamps as Inexpensive Terahertz Detectors.",
+      "area": "First-class honours. Dissertation: Developing Neon Plasma Lamps as Inexpensive Terahertz Detectors.",
       "studyType": "MPhys (Hons) in Physics",
       "startDate": "2014",
       "endDate": "2018",
-      "highlights": [
-        "Supervisor: Roger Lewis."
-      ]
+      "highlights": ["Supervisor: Roger Lewis."]
     }
   ],
   "highlights": [
     {
       "value": "28",
       "label": "scientists managed or supervised",
-      "detail": "Across postdoctoral, staff and student research roles."
+      "detail": "Across postdoctoral, staff, and student research roles."
     },
     {
       "value": "$1.5M",
@@ -262,7 +246,7 @@
       "title": "NASA ROSES research grant",
       "organization": "NASA",
       "amount": "$1.5 million",
-      "summary": "Contributed substantially to the successful proposal and subsequent delivery at Arizona State University. Responsibilities included scientific and technical planning, facilities documentation, open-science data management and the budget; planned and delivered two-thirds of the grant workload."
+      "summary": "Contributed substantially to the successful proposal and subsequent delivery at Arizona State University. Responsibilities included scientific and technical planning, facilities documentation, open-science data management, and the budget; planned and delivered two-thirds of the grant workload."
     },
     {
       "title": "High-performance computing resource allocation",
@@ -327,22 +311,22 @@
       "entries": [
         {
           "title": "Researcher development",
-          "summary": "Managed or supervised 28 scientists across postdoctoral, staff, graduate and undergraduate roles. Provided day-to-day guidance, supported research design and writing, and trained researchers in computational methods."
+          "summary": "Managed or supervised 28 scientists across postdoctoral, staff, graduate, and undergraduate roles. Provided day-to-day guidance, supported research design and writing, and trained researchers in computational methods."
         },
         {
           "title": "Lab supervision & mentoring",
           "organization": "Arizona State University · Beyond Center",
           "date": "2024–2026",
-          "summary": "Mentored, supervised and trained four postdocs, one staff scientist, 12 graduate students and four undergraduates. Supported onboarding and ran weekly interdisciplinary group meetings, training workshops, research seminars and a journal club."
+          "summary": "Mentored, supervised, and trained four postdocs, one staff scientist, 12 graduate students, and four undergraduates. Supported onboarding and ran weekly interdisciplinary group meetings, training workshops, research seminars, and a journal club."
         },
         {
           "title": "Student research projects",
           "organization": "University of Surrey",
-          "summary": "Mentored and trained three graduate and four undergraduate students. As primary supervisor for two MPhys students, guided research-year projects that each produced a paper and achieved grades in the top 5% of the cohort (King et al., 2023; Warman et al., 2023)."
+          "summary": "Mentored and trained three graduate and four undergraduate students. As primary supervisor for two MPhys students, guided research-year projects that each produced a paper and earned a grade in the top 5% of the cohort (King et al., 2023; Warman et al., 2023)."
         },
         {
           "title": "Research training & workshops",
-          "summary": "Designed and delivered hands-on seminars and workshops for PhD students, postdocs and research staff. Training spans scientific programming, high-performance computing, computational chemistry and collaborative research practice."
+          "summary": "Designed and delivered hands-on seminars and workshops for PhD students, postdocs, and research staff. Training spans scientific programming, high-performance computing, computational chemistry, and collaborative research practice."
         }
       ]
     },
@@ -351,15 +335,15 @@
       "entries": [
         {
           "title": "Teaching assistance",
-          "summary": "Four years of teaching experience across foundational and advanced quantum mechanics, computational chemistry, soft matter, biological physics, software carpentry, HPC and astronomy. Teaching languages include Python, Fortran, Julia, MATLAB and Bash."
+          "summary": "Four years of teaching experience across foundational and advanced quantum mechanics, computational chemistry, soft matter, biological physics, software carpentry, HPC, and astronomy. Teaching languages include Python, Fortran, Julia, MATLAB, and Bash."
         },
         {
           "title": "Assessment",
-          "summary": "Graded undergraduate scientific-computing laboratory work and essays, and assessed master’s-level projects and assignments."
+          "summary": "Marked undergraduate scientific computing laboratory work and essays and assessed master’s-level projects and assignments."
         },
         {
           "title": "Module design",
-          "summary": "Designed and advised on undergraduate course redevelopment for the use of generative AI, including software carpentry, modern computational techniques and computational chemistry."
+          "summary": "Designed and advised on undergraduate course redevelopment for the use of generative AI, including software carpentry, modern computational techniques, and computational chemistry."
         }
       ]
     }
@@ -371,7 +355,7 @@
         {
           "title": "Co-chair",
           "organization": "Quantum Biology Gordon Research Symposium",
-          "summary": "Co-led an international early-career symposium with 49 attendees. Raised $22,000 to support attendance by underrepresented and minority groups; developed the budget, programme, speaker list and publicity.",
+          "summary": "Co-led an international early-career symposium with 49 attendees. Raised $22,000 to support attendance by underrepresented and minority groups; developed the budget, programme, speaker list, and publicity.",
           "date": "2024–2025"
         },
         {
@@ -383,7 +367,7 @@
         {
           "title": "Treasurer",
           "organization": "Quantum Effects in Biological Systems Workshop",
-          "summary": "Helped organise an international conference with 71 attendees. Developed the programme, invited speakers, prepared the budget and managed all payments.",
+          "summary": "Helped organise an international conference with 71 attendees. Developed the programme, invited speakers, prepared the budget, and managed all payments.",
           "date": "2022–2023"
         }
       ]
@@ -414,8 +398,8 @@
           "date": "2017–2018"
         },
         {
-          "title": "Clubs, societies & outreach",
-          "summary": "Served as President, Vice-President and Treasurer in non-academic societies, organising events and charity fundraisers. Contributed to public science demonstrations, talks and mentoring schemes."
+          "title": "Clubs, societies, & outreach",
+          "summary": "Served as President, Vice-President, and Treasurer in non-academic societies, organising events and charity fundraisers. Contributed to public science demonstrations, talks, and mentoring schemes."
         }
       ]
     },
@@ -534,51 +518,51 @@
           "title": "Quantifying the Complexity of Exoplanets’ Atmospheres Using Assembly Theory and Vibrational Spectroscopic Measures",
           "organization": "Schmitt Science Summit · California, USA",
           "date": "2025",
-          "authors": "Slocombe, L., Janin, E., Cronin, L. & Walker, S."
+          "authors": "Slocombe, L., Janin, E., Cronin, L., & Walker, S."
         },
         {
           "title": "PcrA Helicase Modifies G-C Tautomerism",
           "organization": "Quantum Biology Gordon Research Conference · Italy",
           "date": "2025",
-          "authors": "Winokan, M., Slocombe, L., Al-Khalili, J. & Sacchi, M."
+          "authors": "Winokan, M., Slocombe, L., Al-Khalili, J., & Sacchi, M."
         },
         {
           "title": "Guanine-Thymine Wobble Misincorporation via Proton Transfer",
           "organization": "EuChemS Conference · Greece",
           "summary": "Best Poster.",
           "date": "2023",
-          "authors": "Slocombe, L., Winokan, M., Al-Khalili, J. S. & Sacchi, M."
+          "authors": "Slocombe, L., Winokan, M., Al-Khalili, J. S., & Sacchi, M."
         },
         {
           "title": "An open quantum systems approach to proton transfer",
           "organization": "Quantum Classical Interface in Closed and Open Systems Workshop · Guildford, UK",
           "date": "2023",
-          "authors": "Slocombe, L., Al-Khalili, J. S. & Sacchi, M."
+          "authors": "Slocombe, L., Al-Khalili, J. S., & Sacchi, M."
         },
         {
           "title": "Guanine-Thymine Wobble Misincorporation via Proton Transfer",
           "organization": "Multiscale Modelling Conference · Manchester, UK",
           "date": "2023",
-          "authors": "Slocombe, L., Winokan, M., Al-Khalili, J. S. & Sacchi, M."
+          "authors": "Slocombe, L., Winokan, M., Al-Khalili, J. S., & Sacchi, M."
         },
         {
           "title": "PcrA Helicase Modifies G-C Tautomerism",
           "organization": "Multiscale Modelling Conference · Manchester, UK",
           "summary": "Best Poster.",
           "date": "2023",
-          "authors": "Winokan, M., Slocombe, L., Al-Khalili, J. & Sacchi, M."
+          "authors": "Winokan, M., Slocombe, L., Al-Khalili, J., & Sacchi, M."
         },
         {
           "title": "Can tautomers lead to DNA point mutations?",
           "organization": "Quantum Biology Gordon Research Conference · Texas, USA",
           "date": "2023",
-          "authors": "Slocombe, L., Al-Khalili, J. S. & Sacchi, M."
+          "authors": "Slocombe, L., Al-Khalili, J. S., & Sacchi, M."
         },
         {
           "title": "Quantum and classical effects in DNA point mutations: Watson–Crick tautomerism in AT and GC base pairs",
           "organization": "International Society of Quantum Biology and Pharmacology President’s Meeting · Online",
           "date": "2021",
-          "authors": "Slocombe, L., Al-Khalili, J. S. & Sacchi, M."
+          "authors": "Slocombe, L., Al-Khalili, J. S., & Sacchi, M."
         }
       ]
     }
