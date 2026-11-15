@@ -13,6 +13,8 @@ bundle exec jekyll serve
 
 The site is then served at `http://localhost:4000`.
 
+Deploy through `.github/workflows/deploy.yml`, which builds the source with Jekyll, purges unused CSS and publishes to GitHub Pages. Generated files in `_site/` should not be edited or committed.
+
 ## Structure
 
 - `_pages/` — static pages (about, CV, projects, publications, …)
@@ -21,6 +23,8 @@ The site is then served at `http://localhost:4000`.
 - `_bibliography/` — publication list (`papers.bib`)
 - `_data/` — CV and citation data
 - `assets/` — images, CSS, and other static assets
+
+Keep this repository focused on the academic site. Theme demonstration pages, sample media, superseded CV and repository-card templates, and upstream theme release workflows have been removed. Retain dated research, publications and news as part of the academic record. The homepage's selected-publications section is disabled until papers are explicitly marked `selected={true}` in the bibliography.
 
 ## Updating the CV
 

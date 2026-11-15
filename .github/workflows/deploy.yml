@@ -19,10 +19,6 @@ on:
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
       - "!README.md"
   pull_request:
@@ -43,10 +39,6 @@ on:
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
       - "!README.md"
   workflow_dispatch:

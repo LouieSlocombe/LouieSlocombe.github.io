@@ -13,19 +13,13 @@ profile:
     <p>School of Chemistry</p>
     <p>University of Birmingham</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # enable after choosing papers with "selected={true}" in the bibliography
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
-talks:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_talks` folder
-
 ---
 
 I’m a computational physicist and theoretical chemist, and a Group Leader Research Fellow in the
@@ -36,7 +30,7 @@ AI and machine learning for sustainable polymers, particularly predicting biodeg
 ## Research background
 
 I completed my PhD in Quantum Biology at the University of Surrey in 2022, supervised by
-Marco Sacchi and Jim Al-Khalili. My thesis, *Quantum Effects in DNA Replication Fidelity*,
+Marco Sacchi and Jim Al-Khalili. My thesis, _Quantum Effects in DNA Replication Fidelity_,
 examined proton transfer and nuclear quantum effects in DNA. I then continued at Surrey as a
 Research Fellow in Theoretical Quantum Biology, investigating open quantum systems, DNA damage,
 ion-channel transport and catalytic surfaces.

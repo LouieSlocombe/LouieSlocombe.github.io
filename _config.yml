@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Louie
-middle_name: 
+middle_name:
 last_name: Slocombe
 contact_note: >
   Feel free to reach out if you want to collaborate.
@@ -25,24 +25,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# Theme
-# -----------------------------------------------------------------------------
-
-# repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
-
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -50,13 +32,11 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
 max_width: 930px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -86,19 +66,6 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-# blog_name: al-folio # blog_name will be displayed in your blog page
-# blog_description: a simple whitespace theme for academics
-# permalink: /blog/:year/:title/
-# lsi: false # produce an index for related posts
-
-# # Pagination
-# pagination:
-#   enabled: true
-
-# related_blog_posts:
-#   enabled: true
-#   max_related: 5
-
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
@@ -116,19 +83,8 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # disabled; this site does not use Disqus
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-# external_sources:
-#   - name: medium.com
-#     rss_url: https://medium.com/@al-folio/feed
-#   - name: Google Blog
-#     posts:
-#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -144,8 +100,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
@@ -182,9 +136,11 @@ exclude:
   - LICENSE
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - AGENTS.md
   - purgecss.config.js
   - README.md
+  - requirements.txt
+  - node_modules
   - vendor
 keep_files:
   - CNAME
@@ -235,23 +191,6 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-# jekyll-archives:
-#   posts:
-#     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-#     permalinks:
-#       year: "/blog/:year/"
-#       tags: "/blog/:type/:name/"
-#       categories: "/blog/:type/:name/"
-#   books:
-#     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-
-# display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
