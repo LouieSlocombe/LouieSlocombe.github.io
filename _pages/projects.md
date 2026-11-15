@@ -2,12 +2,16 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Here is a list of research projects I have worked on or am currently working on.
+description: Following protons through DNA and tracing the construction of complex molecules.
 nav: true
 nav_order: 3
 display_categories: [projects]
 horizontal: false
 ---
+
+Much of my research starts with a molecular question: can a proton change the way DNA is copied, or can a molecule's
+structure tell us something about how it came to exist? These pages bring together the calculations, collaborations,
+and software behind two strands of that work.
 
 <!-- pages/projects.md -->
 <div class="projects">

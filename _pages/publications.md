@@ -7,9 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-Journal articles, conference contributions, preprints, and manuscripts. See my
-[Google Scholar profile](https://scholar.google.com/citations?user=JISRQewAAAAJ)
-for citation information and my [CV]({{ '/cv/' | relative_url }}) for the wider research record.
+These papers follow my work from quantum effects in DNA to chemical complexity and the origins of biochemistry.
+They include journal articles, conference contributions, and work still in progress, with preprints and manuscripts
+listed separately below. You can search by title, author, or topic.
+
+For the story behind the papers, visit my [research pages]({{ '/projects/' | relative_url }}).
+Citation information is on [Google Scholar](https://scholar.google.com/citations?user=JISRQewAAAAJ),
+and my [CV]({{ '/cv/' | relative_url }}) brings together the rest of my academic work.
 
 {% include bib_search.liquid %}
 

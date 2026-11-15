@@ -30,16 +30,16 @@ reviewed: November 2026
 groups:
   - id: materials
     title: Materials & polymers
-    question: From a molecular building block to a material's behaviour.
-    description: Tools for building disordered structures, simulating polymers, and connecting electronic structure
-      to measurable properties.
+    question: From monomers to the properties of a material.
+    description: Building polymers and amorphous structures is often the first step in a simulation. These tools
+      handle that preparation and help connect the resulting structures to measurable properties.
     projects:
       - repo: LouieSlocombe/openmmpolymer
         name: openmmpolymer
         kind: Research software
         language: Python
-        summary: Turn monomer SMILES into polymer melts and blends. Builds, packs, and equilibrates chains with OpenMM,
-          then measures properties such as glass transitions, elasticity, and structure.
+        summary: "Starting from monomer SMILES, openmmpolymer builds, packs, and equilibrates polymer melts and blends with OpenMM. It then
+          measures properties such as glass transitions, elasticity, and structure."
         tags:
           - Polymers
           - OpenMM
@@ -47,8 +47,8 @@ groups:
         name: AmorphGen
         kind: Collaboration
         language: Python
-        summary: Build models of materials without a crystal lattice. Generates amorphous structures and ensembles through
-          random placement, melt-quench simulations, or a combination of both.
+        summary: "For materials without a crystal lattice, AmorphGen builds amorphous structures through random placement, melt-quench
+          simulations, or a combination of the two. It can generate ensembles as well as individual structures."
         tags:
           - Amorphous materials
           - Molecular dynamics
@@ -57,8 +57,8 @@ groups:
         name: py-chargemol
         kind: Research software
         language: Python
-        summary: Turn electron densities into atomic charges, multipoles, and bond orders. Reimplements Chargemol methods
-          in Python, including DDEC analysis and QDR charges for point-charge force fields.
+        summary: "A Python implementation of Chargemol methods for turning electron densities into atomic charges, multipoles, and bond
+          orders. It includes DDEC analysis and QDR charges for point-charge force fields."
         tags:
           - Charge analysis
           - Force fields
@@ -66,8 +66,8 @@ groups:
         name: vanderfast
         kind: Research software
         language: Python / CUDA C++
-        summary: Calculate the dispersion interactions that help hold molecules and materials together. Provides GPU
-          implementations of D3 and D4 energies, forces, and stress, with ASE interfaces.
+        summary: "GPU implementations of the D3 and D4 dispersion models, calculating the energies, forces, and stress associated with
+          these interactions. ASE interfaces connect the calculations to molecular and materials workflows."
         tags:
           - GPU computing
           - Dispersion
@@ -75,23 +75,25 @@ groups:
         name: solphin
         kind: Collaboration
         language: Python
-        summary: Explore a material's potential as a solar absorber. Prepares VASP and CASTEP calculations, then analyses
-          optical absorption and theoretical photovoltaic efficiency limits.
+        summary: "Tools for investigating whether a material could work as a solar absorber. solphin prepares VASP and CASTEP calculations,
+          then analyses optical absorption and the theoretical limits of photovoltaic efficiency."
         tags:
           - Photovoltaics
           - Electronic structure
         docs: https://solphin.readthedocs.io/en/latest/
   - id: quantum
     title: Reactions & quantum dynamics
-    question: Follow a reaction and find out when the nuclei need quantum mechanics.
-    description: A connected set of tools for reaction pathways, multiscale simulation, tunnelling, and isotope effects.
+    question: Following reactions with quantum nuclei.
+    description: Much of my work asks how nuclei move during a reaction. These packages cover reaction paths,
+      multiscale simulations, tunnelling, and isotope effects, along with the setup and analysis those calculations need.
     projects:
       - repo: LouieSlocombe/HEOM.jl
         name: HEOM.jl
         kind: Research software
         language: Julia
-        summary: Watch quantum probability evolve in phase space. Solves Wigner–Moyal dynamics, hierarchical equations
-          of motion, and Caldeira–Leggett models to explore tunnelling, dissipation, and coupling to an environment.
+        summary: "A Julia package for following quantum probability through phase space. It solves Wigner–Moyal dynamics, hierarchical
+          equations of motion, and Caldeira–Leggett models to study tunnelling, dissipation, and coupling to an
+          environment."
         tags:
           - Open quantum systems
           - Quantum dynamics
@@ -99,8 +101,8 @@ groups:
         name: reactiontools
         kind: Research software
         language: Python
-        summary: Follow the route from reactants to products. Connects ASE reaction paths, transition-state searches,
-          and PLUMED enhanced sampling with reusable geometry, analysis, and plotting tools.
+        summary: "The steps around a reaction-path calculation, brought together in Python: ASE paths and transition-state searches, PLUMED
+          enhanced sampling, and reusable geometry, analysis, and plotting tools."
         tags:
           - Reaction pathways
           - ASE
@@ -109,8 +111,8 @@ groups:
         name: openmmnqe
         kind: Research software
         language: Python
-        summary: Explore how quantum nuclei change molecular motion. Runs OpenMM simulations with ring-polymer dynamics
-          and adaptive quantum thermal baths, with workflows for transmission coefficients and reaction rates.
+        summary: "Simulations of quantum nuclei in OpenMM, using ring-polymer dynamics and adaptive quantum thermal baths. Includes
+          workflows for calculating transmission coefficients and reaction rates."
         tags:
           - Nuclear quantum effects
           - OpenMM
@@ -119,9 +121,8 @@ groups:
         name: openmmqmmm
         kind: Research software
         language: Python
-        summary: Treat a reactive region quantum mechanically while retaining its molecular surroundings. Couples ORCA
-          and OpenMM for QM/MM simulations, with optional machine-learning potentials; derived from the ASH modelling
-          program.
+        summary: "A way to place a quantum-mechanical description of a reactive region inside a larger molecular simulation. It couples
+          ORCA and OpenMM, with optional machine-learning potentials, and is derived from the ASH modelling program."
         tags:
           - QM/MM
           - Machine learning
@@ -130,9 +131,8 @@ groups:
         name: autopcet
         kind: Research software
         language: Python
-        summary: Calculate rates for reactions in which protons and electrons move together. Solves proton vibrational
-          states and nonadiabatic PCET rate models, including kinetic isotope effects and electrochemical interface
-          models.
+        summary: "For reactions in which protons and electrons transfer together. It solves for proton vibrational states and evaluates
+          nonadiabatic PCET rate models, including kinetic isotope effects and models of electrochemical interfaces."
         tags:
           - Proton-coupled electron transfer
           - Rate theory
@@ -140,8 +140,8 @@ groups:
         name: forcefill
         kind: Research software
         language: Python
-        summary: Fill missing ligand parameters before a simulation starts. Identifies unmatched residues and produces
-          validated OpenMM force-field XML using GAFF, OpenFF, Espaloma, or supplied CGenFF parameters.
+        summary: "Helps prepare a simulation when ligand parameters are missing. It identifies unmatched residues and produces validated
+          OpenMM force-field XML using GAFF, OpenFF, Espaloma, or supplied CGenFF parameters."
         tags:
           - Force fields
           - Simulation preparation
@@ -150,23 +150,23 @@ groups:
         name: nqetools
         kind: Research software
         language: Python
-        summary: Set up nuclear quantum-effect calculations around i-PI and analyse their results. Includes instanton
-          workflows, tunnelling corrections, and plots of reaction rates and kinetic isotope effects.
+        summary: "Setup and analysis tools for nuclear quantum-effect calculations with i-PI. These include instanton workflows, tunnelling
+          corrections, and plots of reaction rates and kinetic isotope effects."
         tags:
           - i-PI
           - Tunnelling
   - id: assembly
     title: Assembly theory & biochemistry
     question: How much construction history is hidden inside a molecule?
-    description: Collaborative tools from the Emergence of Life group at Arizona State University for molecular complexity,
-      assembly pathways, and biochemical reaction networks.
+    description: Work with the Emergence of Life group at Arizona State University on molecular complexity,
+      assembly pathways, and biochemical reaction networks. The software brings the calculations and the chemistry together.
     projects:
       - repo: ELIFE-ASU/assemblytheorytools
         name: AssemblyTheoryTools
         kind: Collaboration
         language: Python
-        summary: Explore the steps needed to construct molecules, strings, and graphs from reusable parts. Brings assembly
-          calculators, shared-structure comparisons, and pathway visualisation together in one Python interface.
+        summary: "A common Python interface for exploring how molecules, strings, and graphs can be built from reusable parts. It brings
+          together assembly calculators, comparisons of shared structure, and pathway visualisation."
         tags:
           - Assembly theory
           - Molecular complexity
@@ -175,8 +175,9 @@ groups:
         name: CBR-db
         kind: Collaboration
         language: Python / Data
-        summary: Start biochemical network analysis with cleaner chemistry. Curates KEGG and ATLAS compounds and reactions,
-          corrects problematic representations, and adds chemical and thermodynamic properties for further analysis.
+        summary: "A biochemical reaction database for studying the chemistry behind metabolic networks. It curates KEGG and ATLAS compounds
+          and reactions, repairs problematic representations, and adds chemical and thermodynamic properties for
+          analysis."
         tags:
           - Biochemical reactions
           - Curated data
@@ -184,8 +185,8 @@ groups:
         name: ParallelAssemblyCpp
         kind: Collaboration
         language: C++
-        summary: Search for minimal assembly pathways for molecules and strings using parallel C++. Supports exact searches
-          and fast RePair upper bounds; interrupted searches report the best result found so far.
+        summary: "Parallel C++ searches for minimal assembly pathways in molecules and strings, with exact searches and fast RePair upper
+          bounds. If a search is interrupted, it reports the best result found so far."
         tags:
           - Assembly algorithms
           - Parallel computing
@@ -193,22 +194,23 @@ groups:
         name: assemblycfg
         kind: Collaboration
         language: Python
-        summary: Estimate assembly complexity using reusable patterns. Computes upper and lower bounds for strings and
-          molecules, with RePair construction pathways that reveal how repeated fragments can be reused.
+        summary: "Estimates upper and lower bounds on assembly complexity for strings and molecules. RePair construction pathways show
+          which repeated fragments can be reused along the way."
         tags:
           - Assembly bounds
           - Graphs & grammars
   - id: proteins-data
     title: Proteins & scientific data
-    question: Turn sequences, papers, and figures into something you can work with.
-    description: Protein-folding helpers and tools for recovering structured information from the scientific literature.
+    question: Working with sequences and published data.
+    description: Sometimes the starting point is an amino-acid sequence; sometimes it's a paper or a plot.
+      These tools help turn those sources into structures and datasets for further research.
     projects:
       - repo: SMTG-Bham/PaperMinerToolkit
         name: PaperMinerToolkit
         kind: Collaboration
         language: Python
-        summary: Build a literature corpus and turn papers into structured datasets. Searches research sources, collects
-          text and PDFs, and applies configurable text and vision models to extract recipe-defined information.
+        summary: "Tools for turning a collection of papers into a structured dataset. It searches research sources, gathers text and PDFs,
+          and uses configurable text and vision models to extract the information specified in a recipe."
         tags:
           - Literature mining
           - Machine learning
@@ -216,8 +218,8 @@ groups:
         name: figrecover
         kind: Collaboration
         language: Python
-        summary: Recover numerical data from published plots. Traces curves in images and reads vector paths in PDF
-          and SVG figures, exporting points as CSV in the original plot's units.
+        summary: "For the numbers that are available only in a published figure. It traces curves in images or reads vector paths in PDF
+          and SVG plots, then exports CSV data in the original units."
         tags:
           - Figure digitisation
           - Data extraction
@@ -225,8 +227,8 @@ groups:
         name: esmfoldtools
         kind: Research software
         language: Python
-        summary: Predict a protein structure from its sequence with ESMFold, return confidence information, and repair
-          PDB structures with PDBFixer to prepare them for molecular simulation.
+        summary: "Takes an amino-acid sequence through ESMFold to a predicted protein structure with confidence information. It also
+          repairs PDB structures with PDBFixer in preparation for molecular simulation."
         tags:
           - Protein folding
           - Structure preparation
@@ -234,23 +236,23 @@ groups:
         name: ESMFold on Gaudi2
         kind: Examples
         language: Python
-        summary: Run the same protein-folding task on different accelerators. Provides ESMFold examples for conventional
-          GPUs and Intel Gaudi2 HPUs, starting from an input amino-acid sequence.
+        summary: "Examples of the same ESMFold protein-folding task on conventional GPUs and Intel Gaudi2 HPUs, starting from an amino-acid
+          sequence."
         tags:
           - Protein folding
           - Accelerators
   - id: paper-code
     title: Code behind the papers
-    question: Explore the calculations behind the scientific story.
-    description: Study-specific scripts, structures, and datasets for research on DNA, ion channels, and surface chemistry.
-      Each repository preserves the scope and workflow of its accompanying study.
+    question: A closer look at the calculations.
+    description: The inputs, structures, and analysis behind individual studies of DNA, ion channels, and surface chemistry.
+      Each repository belongs to a particular piece of research, so the accompanying paper gives its context.
     projects:
       - repo: LouieSlocombe/Watson-Crick-tautomerism-in-AT-and-GC-base-pairs
         name: Watson–Crick tautomerism
         kind: Paper companion
         language: Structure data
-        summary: Examine the molecular structures behind a study of quantum and classical effects in DNA point mutations.
-          Provides the AT and GC base-pair structures associated with the paper.
+        summary: "The AT and GC base-pair structures used in our study of quantum and classical effects in DNA point mutations. These are
+          the molecular structures behind the paper."
         tags:
           - DNA
           - Molecular structures
@@ -259,8 +261,8 @@ groups:
         name: GC tautomerism during strand separation
         kind: Paper companion
         language: Python / Data
-        summary: Follow proton transfer as guanine–cytosine base pairs are pulled apart. Contains GROMACS inputs, molecular
-          structures, reaction paths, and analysis for DNA strand-separation calculations.
+        summary: "GROMACS inputs, molecular structures, reaction paths, and analysis from our calculations of guanine–cytosine strand
+          separation. The study follows proton transfer as the base pairs are pulled apart."
         tags:
           - DNA
           - Strand separation
@@ -268,8 +270,9 @@ groups:
         name: AT tautomerism during strand separation
         kind: Paper companion
         language: Python / Data
-        summary: Explore adenine–thymine base pairs under strand separation using molecular-dynamics inputs, machine-learning-assisted
-          reaction paths, and Python analysis scripts, with accompanying structures and figures.
+        summary: "Calculations following adenine–thymine base pairs as the strands separate, with molecular-dynamics inputs,
+          machine-learning-assisted reaction paths, and Python analysis scripts. Structures and figures are included
+          alongside the calculations."
         tags:
           - DNA
           - Reaction pathways
@@ -277,8 +280,8 @@ groups:
         name: Proton transfer in methylated DNA
         kind: Paper companion
         language: Python / Julia / Data
-        summary: Investigate how methylation and strand separation affect proton transfer in DNA. Includes reaction
-          paths, reaction-network code, hydrogen-bond analysis, and scripts for preparing and separating base pairs.
+        summary: "Code from our study of how methylation and strand separation affect proton transfer in DNA. Includes reaction paths,
+          reaction-network calculations, hydrogen-bond analysis, and scripts for preparing and separating base pairs."
         tags:
           - DNA
           - Proton transfer
@@ -286,8 +289,8 @@ groups:
         name: Ion selectivity in ASIC1
         kind: Paper companion
         language: Python / Julia / Data
-        summary: Compare classical and quantum descriptions of an ion-channel selectivity filter. Contains potential-energy
-          scans, quantum-dynamics scripts, and analysis for the study of ion selectivity in ASIC1.
+        summary: "The potential-energy scans, quantum-dynamics scripts, and analysis behind our comparison of classical and quantum
+          explanations for ion selectivity in ASIC1."
         tags:
           - Ion channels
           - Quantum biology
@@ -295,23 +298,23 @@ groups:
         name: Hydrogen tunnelling on graphene
         kind: Research companion
         language: Python / Data
-        summary: Study hydrogen motion on a carbon surface. Collects data and example ASE/CASTEP reaction-path calculations
-          for the hydrogen-tunnelling-on-graphene project.
+        summary: "Data and example ASE/CASTEP reaction-path calculations from the hydrogen-tunnelling-on-graphene project, following
+          hydrogen motion on the carbon surface."
         tags:
           - Surface chemistry
           - Tunnelling
   - id: utilities
     title: Simulation utilities & HPC
-    question: The practical pieces that keep a calculation moving.
-    description: Calculator interfaces, numerical building blocks, and cluster scripts developed around day-to-day
-      scientific computing.
+    question: The recurring jobs around a simulation.
+    description: Calculator interfaces, analysis helpers, and cluster scripts from day-to-day research.
+      These are the smaller tools that help with setting up calculations, handling files, and making sense of the output.
     projects:
       - repo: LouieSlocombe/LS-ASE-Utils
         name: LS-ASE-Utils
         kind: Utility collection
         language: Python
-        summary: An earlier collection of ASE helpers for calculator setup, geometry optimisation, reaction-path analysis,
-          trajectory conversion, and plotting. Useful for tracing the workflows behind older simulations.
+        summary: "An older collection of ASE helpers for calculator setup, geometry optimisation, reaction-path analysis, trajectory
+          conversion, and plotting. A useful place to look when following the calculations behind earlier work."
         tags:
           - ASE
           - Analysis helpers
@@ -319,8 +322,8 @@ groups:
         name: ASE_QChem_mod
         kind: Calculator interface
         language: Python
-        summary: Connect ASE to newer Q-Chem calculations, including nuclear–electronic orbital density functional theory
-          (NEO-DFT), where selected nuclei are treated quantum mechanically alongside electrons.
+        summary: "An ASE interface to newer Q-Chem calculations, including nuclear–electronic orbital density functional theory (NEO-DFT),
+          which treats selected nuclei quantum mechanically alongside the electrons."
         tags:
           - ASE
           - Q-Chem
@@ -328,8 +331,8 @@ groups:
         name: LS-Utils
         kind: Utility collection
         language: Python
-        summary: Reusable scientific-computing functions for plotting, coordinate transformations, molecular alignment,
-          and file handling. Collects small operations that recur across simulation and analysis scripts.
+        summary: "Small functions that recur in my simulation scripts: plotting, coordinate transformations, molecular alignment, and file
+          handling."
         tags:
           - Scientific computing
           - Plotting
@@ -337,8 +340,7 @@ groups:
         name: ase-cp2k-noshell
         kind: Calculator interface
         language: Python
-        summary: Run CP2K calculations from ASE without using cp2k-shell. Provides a modified calculator for workflows
-          that launch CP2K through ordinary input and output files.
+        summary: "A modified ASE calculator for running CP2K through ordinary input and output files, without cp2k-shell."
         tags:
           - ASE
           - CP2K
@@ -346,8 +348,8 @@ groups:
         name: HPC-Examples
         kind: Examples
         language: Python / Shell
-        summary: Adapt a working cluster example to your own calculation. Collects input files and job examples for
-          ARCHER2, Eureka, and Eureka2, including ASE and MACE workflows.
+        summary: "Input files and job examples for ARCHER2, Eureka, and Eureka2, including ASE and MACE workflows. These offer starting
+          points to adapt to your own cluster calculations."
         tags:
           - HPC
           - Job submission
@@ -355,8 +357,8 @@ groups:
         name: vasptools
         kind: Workflow scripts
         language: Python / Shell
-        summary: Manage batches of VASP jobs with a Slurm array script and an output-file scanner that reports normal
-          completion or interrupted runs. The surrounding package still uses a starter template.
+        summary: "A Slurm array script for batches of VASP jobs, plus a scanner that checks output files for normal completion or
+          interrupted runs. The surrounding Python package still uses a starter template."
         tags:
           - VASP
           - HPC
@@ -364,23 +366,23 @@ groups:
         name: ls_hpc_tools
         kind: Small utility
         language: Python
-        summary: A small HPC utility repository whose concrete tool finds and removes Slurm output files recursively,
-          with a dry-run option for inspecting the files before cleanup.
+        summary: "A small helper for finding and removing Slurm output files across a directory tree. Its dry-run option lets you inspect
+          the matching files before removing them."
         tags:
           - HPC
           - File management
   - id: templates
     title: Templates, experiments, & the web
-    question: Start a project, try an idea, and share the results.
-    description: Reusable starting points alongside small experiments and the repositories behind my online research
-      profile.
+    question: Starting points and work in progress.
+    description: Templates for new projects, experiments at an early stage, and the source for my website and GitHub profile.
+      The labels distinguish the reusable templates from the examples and unfinished ideas.
     projects:
       - repo: LouieSlocombe/template_python
         name: template_python
         kind: Template
         language: Python
-        summary: "Start a Python package with the plumbing in place: a small example API, command-line entry point,
-          locked environment, type checks, tests, and automated build and publishing workflows."
+        summary: "A starting point for a Python package, with an example API, command-line entry point, locked environment, type checks,
+          tests, and automated build and publishing workflows already laid out."
         tags:
           - Packaging
           - Reproducibility
@@ -388,8 +390,8 @@ groups:
         name: template_python_paper
         kind: Template
         language: Python
-        summary: Give a research paper an organised computational home. Separates package code, analyses, research data,
-          and test fixtures, with locked environments and automated checks to support reproducible work.
+        summary: "A project layout for the code accompanying a research paper. Package code, analyses, research data, and test fixtures
+          have separate homes, with locked environments and automated checks to support reproducible work."
         tags:
           - Research workflows
           - Reproducibility
@@ -397,8 +399,8 @@ groups:
         name: template_julia
         kind: Template
         language: Julia
-        summary: Start a Julia package with a numerical example and command-line app. Includes formatting, quality checks,
-          tests, coverage, and cross-platform continuous integration.
+        summary: "A Julia package template with a numerical example and command-line app. Formatting, quality checks, tests, coverage, and
+          cross-platform continuous integration are included."
         tags:
           - Packaging
           - Scientific computing
@@ -406,8 +408,8 @@ groups:
         name: This website
         kind: Website
         language: Jekyll / Liquid / SCSS
-        summary: The source for this academic website, built with Jekyll and the al-folio theme. Brings together publications,
-          research explanations, teaching, a CV, and this code catalogue.
+        summary: "The source for the site you are reading, built with Jekyll and the al-folio theme. It holds my publications, research
+          pages, teaching record, CV, and this software collection."
         tags:
           - Web
           - Research communication
@@ -415,8 +417,8 @@ groups:
         name: torchmd-gaudi
         kind: Experiment
         language: Python
-        summary: An exploratory repository aimed at running TorchMD on Gaudi hardware. Currently contains setup notes
-          and a molecular-dynamics test using CPU or CUDA, alongside starter package code.
+        summary: "An experiment aimed at running TorchMD on Gaudi hardware. So far, the repository contains setup notes, a
+          molecular-dynamics test using CPU or CUDA, and starter package code."
         tags:
           - Molecular dynamics
           - Accelerators
@@ -424,8 +426,8 @@ groups:
         name: sella_crash
         kind: Debugging example
         language: Python / Data
-        summary: A compact reproducer for a Sella intrinsic reaction-coordinate problem, with its Python script, NWChem
-          input and output, transition-state trajectory, and submission script.
+        summary: "A small example that reproduces a Sella intrinsic reaction-coordinate problem. The Python script, NWChem input and
+          output, transition-state trajectory, and submission script are all included."
         tags:
           - Debugging
           - Reaction pathways
@@ -433,8 +435,7 @@ groups:
         name: GitHub profile
         kind: Profile
         language: Markdown
-        summary: "The README displayed on my GitHub profile: a short introduction to my research, selected software,
-          publications, and links to collaborators and research groups."
+        summary: "The README on my GitHub profile, introducing my research, selected software, publications, and collaborators."
         tags:
           - Web
           - Research communication
@@ -442,9 +443,8 @@ groups:
         name: vaspbench
         kind: Scaffold
         language: Python
-        summary: A starting point for a VASP parameter-benchmarking project. The public source currently contains a
-          Python package scaffold and example functions; the proposed benchmarking workflow is not implemented there
-          yet.
+        summary: "The beginnings of a VASP parameter-benchmarking project. At present, it contains a Python package scaffold and example
+          functions; the benchmarking workflow is still to be implemented."
         tags:
           - VASP
           - Project scaffold

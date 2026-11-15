@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Code
-description: Open-source tools for molecules, materials, and the questions in between.
+description: Software I've written and helped develop for molecular simulation, materials, and chemical complexity.
 nav: true
 nav_order: 4
 ---
@@ -15,10 +15,10 @@ nav_order: 4
 
 <div class="code-catalogue" id="code-catalogue">
   <section class="code-intro" aria-labelledby="code-intro-title">
-    <p class="code-eyebrow">From a research question to a working calculation</p>
-    <h2 id="code-intro-title">Build a molecule. Follow a reaction. Explore what emerges.</h2>
-    <p class="code-lead">My research moves between quantum physics, chemistry, and machine learning. These repositories are the tools, experiments, and shared building blocks that make that work possible — from proton tunnelling in DNA to the behaviour of polymer materials.</p>
-    <p>This catalogue features my own software and collaborative projects to which I have made substantial contributions. Within each theme, projects are ordered roughly by research impact and the scale of my contribution, with the most substantial work first. Each entry explains what the code does and takes you straight to its source.</p>
+    <p class="code-eyebrow">Code from my research</p>
+    <h2 id="code-intro-title">From a molecular question to a working calculation</h2>
+    <p class="code-lead">A lot of my research involves writing software: building a polymer, following a proton through DNA, or working out how a complex molecule could be assembled. Here are the tools I've written and the collaborative projects I've helped develop along the way.</p>
+    <p>I've grouped them by the problems they tackle, with the most substantial work first in each section. Alongside research packages, you'll find code from individual papers, everyday simulation helpers, and a few experiments. Each entry links to the source, with documentation and papers where available.</p>
     <div class="code-intro-links">
       <a class="code-github-link" href="https://github.com/{{ catalogue.github_user }}"><i class="fa-brands fa-github" aria-hidden="true"></i> Explore my GitHub <span aria-hidden="true">↗</span></a>
       <span>{{ project_count }} repositories · {{ catalogue.groups.size }} themes</span>
@@ -82,8 +82,8 @@ nav_order: 4
 
   <div class="code-footer">
     <h2>The science behind the software</h2>
-    <p>For the questions that motivated these tools, explore my <a href="{{ '/projects/' | relative_url }}">research</a> and <a href="{{ '/publications/' | relative_url }}">publications</a>. If you build on a project, its README is the best starting point for installation, examples, and citation guidance.</p>
-    <p class="code-review-note">Selected public projects, reviewed {{ catalogue.reviewed }}. The catalogue focuses on original work and substantial collaborations, with templates and experiments labelled individually.</p>
+    <p>My <a href="{{ '/projects/' | relative_url }}">research pages</a> explain the questions behind much of this code, and the <a href="{{ '/publications/' | relative_url }}">papers</a> give the full details. If you'd like to use a package, start with its README for installation, examples, and citation guidance.</p>
+    <p class="code-review-note">Last reviewed {{ catalogue.reviewed }}. I've included original work and substantial collaborations, and labelled templates and experiments so you know what to expect.</p>
   </div>
 </div>
 
