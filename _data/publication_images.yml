@@ -1,0 +1,222 @@
+# Figures from the corresponding papers, keyed by stable BibTeX identifiers.
+# Keep source and attribution details when adding or replacing an image.
+# Awaiting author-supplied files or figure choices:
+# - slocombe2021quantum and de2025proton: publisher downloads inaccessible.
+# - slocombe2026assemblytheorytools: no accessible manuscript located.
+# - ferguson2025conformational: current manuscript needed (old preprint withdrawn).
+# - janin2025searching: abstract only; needs poster, slides, or a chosen figure.
+# - walker2026searching: accessible white paper contains no figures.
+slocombe2026cbrdb:
+  path: /assets/img/publication_preview/slocombe2026cbrdb.jpg
+  width: 697
+  height: 538
+  alt: CBR-db workflow linking biochemical reaction data to spectra, molecular assembly, atom tracking, and thermodynamic properties.
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC13288895/
+  image_source: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d115/13288895/66940fbcfd38/sb6c00060_0001.jpg
+  figure: Figure 1
+  attribution: Slocombe et al., ACS Synthetic Biology (2026), Figure 1. © 2026 The Authors.
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+malloy2025emergence:
+  path: /assets/img/publication_preview/malloy2025emergence.png
+  width: 5008
+  height: 3858
+  alt: Expanding chemical space illustrating the emergence of chiral molecules as molecular size increases.
+  source: https://arxiv.org/abs/2505.01056
+  image_source: https://arxiv.org/pdf/2505.01056
+  figure: Figure 1A
+  attribution: Malloy et al., The Emergence of Chirality from Metabolism (2025), Figure 1A.
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  extraction: Original embedded image on PDF page 9, no modifications.
+siebert2026assembly:
+  path: /assets/img/publication_preview/siebert2026assembly.jpg
+  width: 1200
+  height: 617
+  alt: Two molecular graph fragments combined by a joining operation in molecular assembly space.
+  source: https://arxiv.org/abs/2606.15499
+  image_source: https://arxiv.org/pdf/2606.15499
+  figure: Figure 2
+  attribution: Siebert et al., Assembly Spaces (2026), Figure 2.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Original embedded image on PDF page 16, no modifications.
+benites2026deeptime:
+  path: /assets/img/publication_preview/benites2026deeptime.png
+  width: 1432
+  height: 928
+  alt: Proteome sizes and distributions of elemental composition across cellular domains and viral realms.
+  source: https://arxiv.org/abs/2605.19333
+  image_source: https://arxiv.org/pdf/2605.19333
+  figure: Figure 1
+  attribution: Benites, Slocombe, and Walker, Deep-time Consistency in Proteome Elemental Composition Across Cellular and Viral Life (2026), Figure
+    1.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Original embedded image on PDF page 4, no modifications.
+cox2026solphin:
+  path: /assets/img/publication_preview/cox2026solphin.svg
+  width: 1135
+  height: 631
+  alt: Solphin workflow from density functional theory calculations to photovoltaic efficiency metrics.
+  source: https://arxiv.org/html/2610.10028v1
+  image_source: https://arxiv.org/html/2610.10028v1/solphin_flowchart.svg
+  figure: Figure 1
+  attribution: Cox et al., Solphin (2026), Figure 1.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+king2023tautomerisation:
+  path: /assets/img/publication_preview/king2023tautomerisation.jpg
+  width: 666
+  height: 398
+  alt: DNA passing through helicase, with a magnified adenine-thymine base pair.
+  source: https://doi.org/10.1021/acs.jpcb.2c08631
+  image_source: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d037/10201536/bc1aee6997e4/jp2c08631_0008.jpg
+  figure: Graphical abstract
+  attribution: King et al. (2023); CC BY 4.0
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unaltered original publisher figure, downloaded from the open-access PMC deposit.
+warman2023proton:
+  path: /assets/img/publication_preview/warman2023proton.jpg
+  width: 729
+  height: 378
+  alt: Hachimoji DNA with proton-transfer pathways in the synthetic S-B and Z-P base pairs.
+  source: https://doi.org/10.1039/D3RA00983A
+  image_source: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/48db/10152326/8407dfedc903/d3ra00983a-ga.jpg
+  figure: Graphical abstract
+  attribution: Warman, Slocombe, and Sacchi (2023); CC BY 3.0
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  extraction: Unaltered original publisher figure, downloaded from the open-access PMC deposit.
+ferguson2025computational:
+  path: /assets/img/publication_preview/ferguson2025computational.jpg
+  width: 692
+  height: 279
+  alt: Cryptolepine intercalated between DNA bases beside free-energy profiles for its removal.
+  source: https://doi.org/10.1021/acsomega.4c08666
+  image_source: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/428f/12079271/cb0dc0c50373/ao4c08666_0007.jpg
+  figure: Graphical abstract
+  attribution: Ferguson et al. (2025); CC BY 4.0
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unaltered original publisher figure, downloaded from the open-access PMC deposit.
+slocombe2024measuring:
+  path: /assets/img/publication_preview/slocombe2024measuring.jpg
+  width: 660
+  height: 403
+  alt: Molecular assembly pathway joining reusable fragments to form 5-aminoisophthalic acid.
+  source: https://doi.org/10.1021/acscentsci.4c00697
+  image_source: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f21/11117682/0545977f6b09/oc4c00697_0001.jpg
+  figure: Figure 1
+  attribution: Slocombe and Walker (2024); CC BY 4.0
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unaltered original publisher figure, downloaded from the open-access PMC deposit.
+slocombe2023tunnelling:
+  path: /assets/img/publication_preview/slocombe2023tunnelling.jpg
+  width: 712
+  height: 362
+  alt: Energy landscape and molecular structures along the guanine-thymine wobble proton-transfer pathway.
+  source: https://doi.org/10.1021/acs.jpclett.2c03171
+  image_source: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7ed0/9841559/7b1b8fb2b44b/jz2c03171_0003.jpg
+  figure: Figure 2
+  attribution: Slocombe et al. (2023); CC BY 4.0
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unaltered original publisher figure, downloaded from the open-access PMC deposit.
+vallee2025beyond:
+  path: /assets/img/publication_preview/vallee2025beyond.png
+  width: 800
+  height: 485
+  alt: Structure of acid-sensing ion channel 1 with a magnified sodium ion in its selectivity filter.
+  source: https://www.cambridge.org/engage/chemrxiv/article-details/68db83c3f416303770efbc10
+  image_source: https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68db83c3f416303770efbc10/original/beyond-quantum-coherence-sub-femtosecond-lifetimes-underscore-classical-origins-of-selectivity-in-acid-sensing-ion-channel-1.pdf
+  figure: Figure 1
+  attribution: Vallée et al. (2025); CC BY 4.0
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Complete Figure 1 extracted from PDF page 4; caption and surrounding page text excluded. Scientific image content unchanged.
+slocombe2022open:
+  path: /assets/img/publication_preview/slocombe2022open.png
+  width: 1000
+  height: 735
+  alt: Double-well proton-transfer potential for guanine-cytosine, with quantum energy levels and wavefunctions.
+  source: https://www.nature.com/articles/s42005-022-00881-8
+  image_source: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42005-022-00881-8/MediaObjects/42005_2022_881_Fig2_HTML.png
+  figure: Figure 2
+  attribution: Slocombe, Sacchi, and Al-Khalili (2022)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unmodified publisher figure
+slocombe2018electrical:
+  path: /assets/img/publication_preview/slocombe2018electrical.png
+  width: 561
+  height: 683
+  alt: Neon lamp discharge regimes, showing optical spectra, lamp photographs, and the current-voltage characteristic.
+  source: https://link.springer.com/article/10.1007/s10762-018-0495-1
+  image_source: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10762-018-0495-1/MediaObjects/10762_2018_495_Fig1_HTML.gif
+  figure: Figure 1
+  attribution: Slocombe and Lewis (2018)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Lossless GIF-to-PNG conversion
+winokan2023multiscale:
+  path: /assets/img/publication_preview/winokan2023multiscale.png
+  width: 1500
+  height: 1195
+  alt: PcrA helicase bound to DNA, with a close-up of the base pair used for proton-transfer simulations.
+  source: https://www.nature.com/articles/s41598-023-48119-z
+  image_source: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-48119-z/MediaObjects/41598_2023_48119_Fig2_HTML.png
+  figure: Figure 2
+  attribution: Winokan et al. (2023)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unmodified publisher figure
+seiler2025understanding:
+  path: /assets/img/publication_preview/seiler2025understanding.png
+  width: 1500
+  height: 1219
+  alt: Water adsorption geometries and calculated energy landscapes on hexagonal boron nitride.
+  source: https://www.nature.com/articles/s41467-025-65452-1
+  image_source: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-65452-1/MediaObjects/41467_2025_65452_Fig2_HTML.png
+  figure: Figure 2
+  attribution: Seiler et al. (2025)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unmodified publisher figure
+slocombe2022protontransfer:
+  path: /assets/img/publication_preview/slocombe2022protontransfer.png
+  width: 766
+  height: 565
+  alt: DNA strand-separation model showing the applied force and the three hydrogen bonds of a guanine-cytosine base pair.
+  source: https://www.nature.com/articles/s42004-022-00760-x
+  image_source: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42004-022-00760-x/MediaObjects/42004_2022_760_Fig1_HTML.png
+  figure: Figure 1
+  attribution: Slocombe et al. (2022)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unmodified publisher figure
+kim2021quantum:
+  path: /assets/img/publication_preview/kim2021quantum.jpg
+  width: 550
+  height: 398
+  alt: Comparison of canonical Watson-Crick DNA base pairs and the distorted geometries of wobble mismatches.
+  source: https://www.mdpi.com/2624-960X/3/1/6
+  image_source: https://mdpi-res.com/quantumrep/quantumrep-03-00006/article_deploy/html/images/quantumrep-03-00006-g007-550.jpg
+  figure: Figure 7
+  attribution: Kim et al. (2021)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  extraction: Unmodified publisher figure
+raghavan2021alkali:
+  path: /assets/img/publication_preview/raghavan2021alkali.jpg
+  width: 1505
+  height: 878
+  alt: Calculated sodium diffusion energy profiles and adsorption sites on a ruthenium surface.
+  source: https://www.repository.cam.ac.uk/items/fafd9759-5dd4-43bb-b9f8-5135798fea57
+  image_source: https://api.repository.cam.ac.uk/server/api/core/bitstreams/bd456390-72e8-484c-968b-87bb98bc299f/content
+  figure: Figure 3 (accepted manuscript)
+  attribution: Raghavan et al. (2021)
+  license: All rights reserved (repository record)
+  extraction: Embedded JPEG extracted unmodified from page 5 of the accepted manuscript

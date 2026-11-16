@@ -1,8 +1,9 @@
 ---
 ---
-<div class="row">
-  {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+{% assign publication_image = site.data.publication_images[entry.key] %}
+<div class="publication-entry{% if site.enable_publication_thumbnails %} publication-entry-with-images{% endif %}">
+  {% if site.enable_publication_thumbnails and publication_image %}
+    <div class="publication-media abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -25,28 +26,32 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
-      {% if entry.preview %}
-        {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-        {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
-            class="preview z-depth-1 rounded"
-            zoomable=true
-            avoid_scaling=true
-            alt=entry.preview
-          %}
+      {% assign image_alt = publication_image.alt | escape %}
+      <a class="publication-image-link" href="{{ publication_image.source }}" title="View {{ publication_image.figure | escape }} in the paper">
+        {%
+          include figure.liquid
+          loading="lazy"
+          path=publication_image.path
+          sizes="(max-width: 575px) 80px, 168px"
+          class="preview"
+          width=publication_image.width
+          height=publication_image.height
+          alt=image_alt
+        %}
+      </a>
+      <div class="publication-image-source">
+        <a href="{{ publication_image.source }}">{{ publication_image.figure }}</a>
+        {% if publication_image.license_url %}
+          <span class="publication-image-license">
+            <a href="{{ publication_image.license_url }}">{{ publication_image.license }}</a>
+          </span>
         {% endif %}
-      {% endif %}
+      </div>
     </div>
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="publication-details">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

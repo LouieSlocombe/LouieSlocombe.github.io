@@ -48,6 +48,12 @@ Illustrations are conceptual schematics. Editable VectorCraft files and their re
 - The teaching page reuses the teaching entries in `resume.json` so the two pages stay in sync.
 - The CV is presented as web content only. Do not add a downloadable CV PDF or PDF download links.
 
+## Updating publication figures
+
+`_data/publication_images.yml` maps stable bibliography keys to figures from the papers. Original image assets live in `assets/img/publication_preview/`; each record includes descriptive alt text, dimensions, the source paper and image URLs, a figure label, and attribution and licence details where available. Keep these sources with the images and use figures from the corresponding paper, rather than generic illustrations. Entries without an available figure remain text-only until an appropriate image is supplied.
+
+`_layouts/bib.liquid` displays the figures to the left of each publication and links to their sources. `_sass/_publications.scss` keeps the layout responsive in both themes, and ImageMagick generates the responsive raster variants. The compact CV bibliography uses its own layout and does not display these figures.
+
 ## Updating the code catalogue
 
 The `/repositories/` page is built from `_data/repositories.yml`. Each group has a stable anchor `id`, a title, introductory copy, and a `projects` list. Each project has a GitHub `owner/repo`, display name, kind, language, short summary, and topic tags; optional `docs` and `paper` fields add related links. List each repository once and label collaborative work, templates, and experiments explicitly. Check the README and source before describing functionality, especially for repositories that still contain starter code.
