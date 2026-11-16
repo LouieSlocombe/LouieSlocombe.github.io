@@ -1,2 +1,5 @@
 linkedin.com
 reddit.com
+
+# Google Scholar blocks automated requests with HTTP 403.
+^https://scholar\.google\.com/citations\?user=JISRQewAAAAJ$

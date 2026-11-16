@@ -38,5 +38,9 @@ jobs:
         uses: lycheeverse/lychee-action@v2.0.2
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --verbose --no-progress './**/*.md' './**/*.html'
+          # Liquid URLs are checked after rendering by the built-site workflow.
+          args: >-
+            --user-agent 'curl/7.54'
+            --exclude '(?i)(\{\{|%7b%7b)'
+            --exclude-path README.md --exclude-path _pages/404.md
+            --verbose --no-progress './**/*.md' './**/*.html'

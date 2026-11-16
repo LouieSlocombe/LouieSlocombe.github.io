@@ -16,7 +16,9 @@
           {% elsif item.date %}
             <span>{{ item.date | escape }}</span>
           {% endif %}
-          {% if item.amount %}<strong>{{ item.amount | escape }}</strong>{% endif %}
+          {% if item.amount -%}
+            <strong>{{ item.amount | escape }}</strong>
+          {%- endif %}
         </p>
       {% endif %}
       {% assign entry_title = item.position | default: item.studyType | default: item.title %}
@@ -28,15 +30,29 @@
         {% endif %}
       </h{{ include.heading | default: 3 }}>
       {% assign organization = item.name | default: item.institution | default: item.organization | default: item.awarder %}
-      {% if organization %}<p class="cv-entry-organization">{{ organization | escape }}</p>{% endif %}
-      {% if item.department %}<p class="cv-entry-detail">{{ item.department | escape }}</p>{% endif %}
-      {% if item.location %}<p class="cv-entry-detail">{{ item.location | escape }}</p>{% endif %}
-      {% if item.authors %}<p class="cv-entry-detail">{{ item.authors | escape }}</p>{% endif %}
-      {% if item.area %}<p>{{ item.area | escape }}</p>{% endif %}
-      {% if item.summary %}<p>{{ item.summary | escape }}</p>{% endif %}
+      {% if organization %}
+        <p class="cv-entry-organization">{{ organization | escape }}</p>
+      {% endif %}
+      {% if item.department %}
+        <p class="cv-entry-detail">{{ item.department | escape }}</p>
+      {% endif %}
+      {% if item.location %}
+        <p class="cv-entry-detail">{{ item.location | escape }}</p>
+      {% endif %}
+      {% if item.authors %}
+        <p class="cv-entry-detail">{{ item.authors | escape }}</p>
+      {% endif %}
+      {% if item.area %}
+        <p>{{ item.area | escape }}</p>
+      {% endif %}
+      {% if item.summary %}
+        <p>{{ item.summary | escape }}</p>
+      {% endif %}
       {% if item.highlights.size > 0 %}
         <ul class="cv-bullets">
-          {% for highlight in item.highlights %}<li>{{ highlight | escape }}</li>{% endfor %}
+          {% for highlight in item.highlights %}
+            <li>{{ highlight | escape }}</li>
+          {% endfor %}
         </ul>
       {% endif %}
     </li>

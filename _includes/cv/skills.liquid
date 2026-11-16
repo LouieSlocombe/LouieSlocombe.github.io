@@ -3,7 +3,9 @@
     <div>
       <h3 class="cv-group-title">{{ skill.name | escape }}</h3>
       <ul class="cv-bullets">
-        {% for keyword in skill.keywords %}<li>{{ keyword | escape }}</li>{% endfor %}
+        {% for keyword in skill.keywords %}
+          <li>{{ keyword | escape }}</li>
+        {% endfor %}
       </ul>
     </div>
   {% endfor %}
